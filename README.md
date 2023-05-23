@@ -8,14 +8,15 @@
 
 ## Introduction:
 
-Here
-
+This is a presidential election analysis report that occured in Nigeria between the year 2015 & 2019. In this report, we would be focusing on the top or major parties (APC & PDP) involved in the election and a breakdown of how they got their respective votes across the states and geopolitical zones in the country.
 
 
 ## Objectives:
 
-The
+The Objective of this analysis is to help answer some questions mentioned in the **findings** section which is to help give insights or an overview of what is going on in the political space between the 2 parties and how were they able to influence do they have between the year 2015 & 2019
 
+This projects was done before the 2023 Presidential Election and the Objective is  on what is expected to play out in the 2023 election.
+In this projects, I showed how Apc and Pdp were voted for in 2015 & 2019 Presidential Election across all the states in the country and the geopolitical zone.
 
 ## Data Sourcing:
 
