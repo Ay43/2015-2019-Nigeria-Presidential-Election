@@ -15,12 +15,12 @@ This is a presidential election analysis report that occured in Nigeria between 
 
 The Objective of this analysis is to help answer some questions mentioned in the **findings** section of this project, which is to help give insight or  overview on how APC and PDP were able to gathered votes across all states and geopolitical zones at the 2015 and 2019 Presidential Election in Nigeria. 
 
-Also, the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 election.
+Also, the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 presidential election in the country.
 
 
 ## Data Sourcing:
 
-Data was provided in the raw form and can be found [here]([https://docs.google.com/spreadsheets/d/18V4qrI6ZnJNO8EwOocSTWmuHiQQocB80/edit#gid=707954281](https://www.kaggle.com/datasets/somtoe/nigerian-presidential-election-results?select=2023elections.csv))
+Data was provided in the raw form and can be found [here](https://www.kaggle.com/datasets/somtoe/nigerian-presidential-election-results?select=2023elections.csv)
 
 
 ## Data Loading And Arrangement:
