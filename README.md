@@ -28,20 +28,13 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 * The table structure was created before the raw file could be loaded into the database with the below command
 >*2015 & 2019 Presidential Election Command*
 
-|     2015      |     2019      |
+|        2015     |     2019      |
 |:----------------|:--------------:|
 ![](e2015.png)   |![](e2019.png)
 
-* The data was loaded into excel from Home/Data/From file/From text/csv/Open/Transform data then loaded to power query where all transformation and cleaning was done.
+* The data was loaded into the database from Server/PostgresSQL14/Databases/postgres/Schemas/Public/Tables/ then the 2 tables created namely election_2015 and election_2019.
 
->*Before / After transformation and cleaning*
-
-|     Before      |     After      |
-|:----------------|:--------------:|
-![](Before.png)   |![](after.png)
-
-
-* The data consist of 8 Columns (landing page, month of year, sessions, new users, bounces, pageviews, avg session duration, transactions) and 909+ rows.
+* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. 
 
 
 
