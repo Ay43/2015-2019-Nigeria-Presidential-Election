@@ -30,7 +30,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 |     2015      |     2019      |
 |:----------------|:--------------:|
-![](Before.png)   |![](after.png)
+![](e2015.png)   |![](e2019.png)
 
 * The data was loaded into excel from Home/Data/From file/From text/csv/Open/Transform data then loaded to power query where all transformation and cleaning was done.
 
