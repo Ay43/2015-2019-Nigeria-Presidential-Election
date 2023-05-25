@@ -26,7 +26,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 ## Data Loading And Arrangement:
 
 * The table structure was created before the raw file could be loaded into the database with the below command
->*2015 & 2019 Presidential Election Command *
+>*2015 & 2019 Presidential Election Command*
 
 |     2015      |     2019      |
 |:----------------|:--------------:|
