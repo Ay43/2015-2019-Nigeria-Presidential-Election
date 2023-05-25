@@ -25,7 +25,23 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 ## Data Loading And Arrangement:
 
-* The data
+* The table structure was created before the raw file could be loaded into the database with the below command
+>*2015 & 2019 Presidential Election Command *
+
+|     2015      |     2019      |
+|:----------------|:--------------:|
+![](Before.png)   |![](after.png)
+
+* The data was loaded into excel from Home/Data/From file/From text/csv/Open/Transform data then loaded to power query where all transformation and cleaning was done.
+
+>*Before / After transformation and cleaning*
+
+|     Before      |     After      |
+|:----------------|:--------------:|
+![](Before.png)   |![](after.png)
+
+
+* The data consist of 8 Columns (landing page, month of year, sessions, new users, bounces, pageviews, avg session duration, transactions) and 909+ rows.
 
 
 
