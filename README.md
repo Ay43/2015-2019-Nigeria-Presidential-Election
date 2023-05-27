@@ -54,6 +54,11 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 >*Table Information*
 
+|        2015     |     2019      |
+|:----------------|:--------------:|
+![](e2015_infq.png)   |![](e2019_infq.png)
+
+
 
 ## Findings:
 
