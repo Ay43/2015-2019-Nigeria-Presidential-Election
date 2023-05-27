@@ -54,9 +54,15 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 >*Table Information*
 
-|        2015     |     2019      |
-|:----------------|:--------------:|
-![](e2015_infq.png)   |![](e2019_infq.png)
+The 2 tables(election_2015 and election_2019) consist of Eleven(11) columns each
+
+
+| election_2015     | election_2019      |
+|:----------------  |:--------------:|
+![](e2015_infr.png)   |![](e2019_infr.png)
+
+
+The table structure has been created, data  has been loaded, we have an idea of each table informations so *lets dive into the findings*
 
 
 
