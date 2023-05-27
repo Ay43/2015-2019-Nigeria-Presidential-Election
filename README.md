@@ -1,5 +1,5 @@
 # 2015-2019-Presidential-Election-Analysis-with-SQL
->*A Case Study On the Two(2) Top Parties(APC & PDP) in Nigeria*
+>*A Case Study on APC & PDP party in Nigeria*
 
 
 ![](ELECTION.jpg)
@@ -49,7 +49,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 * The data was loaded into the database from Server/PostgresSQL14/Databases/postgres/Schemas/Public/Tables/ then the 2 tables created namely election_2015 and election_2019.
 
-* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. Howver, lets have a look on the table information of the two(2) tables namely election_2015 & elections_2019
+* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. However, lets have a look on the table information of the two(2) tables namely election_2015 & elections_2019
 
 
 >*Table Information*
