@@ -10,6 +10,18 @@
 
 This is a presidential election analysis report that occured in Nigeria between the year 2015 & 2019. In this report, we would be focusing on the top or major parties (APC & PDP) involved in the election and a breakdown of how they got their respective votes across the states and geopolitical zones in the country.
 
+In this project, would be covering the following;
+
+* Objectives      [here]()
+* Data Sourcing   [here]()
+* Data Loading And Arrangement    [here]()
+* Findings    [here]()
+* Conclusion    [here]()
+* Recommended Solutions   [here]()
+* Codes   [here]()
+* Tools   [here]()
+* Credits [here]()
+
 
 ## Objectives:
 
@@ -28,6 +40,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 ## Data Loading And Arrangement:
 
 * The table structure was created before the raw file could be loaded into the database with the below command
+
 >*2015 & 2019 Presidential Election Command*
 
 |        2015     |     2019      |
@@ -69,17 +82,17 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 [Click here]([https://drive.google.com/file/d/1Ta9c0XaGWdDUMatOMZsyPz4cMAKqDLS-/view?usp=sharing](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/presidential%20election%20(2015%20%26%202019).sql))
 
 
+## Tools
+
+* Postgresql
+
+
 ## Credits
 
 * @Somtoe
 * Kaggle 
 * Google
 * Github
-
-
-## Tools
-
-* Postgresql
 
 
 ## Contacts and other Projects
