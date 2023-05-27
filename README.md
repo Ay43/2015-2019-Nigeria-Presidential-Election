@@ -17,7 +17,7 @@ The Objective of this analysis is to help answer some questions mentioned in the
 
 Also, the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 presidential election in the country.
 
-You can skip all other process and jump roght in to the Findings by clicking  [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#findings) 
+You can skip all other process and jump right in to the **Findings** by clicking  [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#findings) 
 
 
 ## Data Sourcing:
