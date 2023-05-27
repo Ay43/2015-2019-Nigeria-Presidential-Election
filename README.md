@@ -1,5 +1,5 @@
 # 2015-2019-Presidential-Election-Analysis-with-SQL
->*A Presidential Election Analysis Report in Nigeria between the year 2015 and 2019*
+>*A Case Study On the Two(2) Top Parties(APC & PDP) in Nigeria*
 
 
 ![](ELECTION.jpg)
@@ -16,6 +16,8 @@ This is a presidential election analysis report that occured in Nigeria between 
 The Objective of this analysis is to help answer some questions mentioned in the **findings** section of this project, which is to help give insight or  overview on how APC and PDP were able to gathered votes across all states and geopolitical zones at the 2015 and 2019 Presidential Election in Nigeria. 
 
 Also, the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 presidential election in the country.
+
+You can skip all other process and jump roght in to the Findings by clicking  [here](https://www.kaggle.com/datasets/somtoe/nigerian-presidential-election-results?select=2023elections.csv) 
 
 
 ## Data Sourcing:
@@ -34,8 +36,10 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 * The data was loaded into the database from Server/PostgresSQL14/Databases/postgres/Schemas/Public/Tables/ then the 2 tables created namely election_2015 and election_2019.
 
-* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. 
+* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. Howver, lets have a look on the table information of the two(2) tables namely election_2015 & elections_2019
 
+
+>*Table Information*
 
 
 ## Findings:
