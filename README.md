@@ -89,6 +89,9 @@ It was discovered that APC average votes were more than PDP average votes in 201
 |:----------------  |:--------------:|
 ![](avg_vcmd.png)   |![](avg_votes.png)
 
+
+
+
 ## Conclusions:
 
 >*Overall Findings shows that;*
