@@ -82,12 +82,52 @@ Let us have a look at how APC & PDP were able to gather votes across the states 
 
 >*What is the AVERAGE votes the 2 parties (Apc & Pdp) got in 2015 & 2019*
 
-It was discovered that APC average votes were more than PDP average votes in 2015 & 2019 respectively. Howvever, APC votes were reduced by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also reduced by 42978 votes in 2019 compare to their average votes in 2015.
+It was discovered that APC average votes were more than PDP average votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also **fell** 🔽 by 42978 votes in 2019 compare to their average votes in 2015.
 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
 ![](avg_vcmd.png)   |![](avg_votes.png)
+
+
+Let us have a look at how the 2 parties were individually affected by the average votes.
+
+
+
+
+**APC**
+
+>*How many APC votes by states were above APC average votes got in 2015 & 2019?*
+
+
+
+It appears that APC had 13 states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+
+
+| Command Prompt    | Result     |
+|:----------------  |:--------------:|
+![](.png)   |![](.png)
+
+
+
+**PDP**
+
+>*How many PDP votes by states were above PDP average votes got in 2015 & 2019?*
+
+
+
+It also appears that PDP had 9 states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+
+
+| Command Prompt    | Result     |
+|:----------------  |:--------------:|
+![](.png)   |![](.png)
+
+
+Let us do a COMPARISON between the 2 parties, we would be looking at how many votes by states did one party had above the average votes gotten by the other party in 2015 and 2019.
+
+
+
 
 
 
@@ -98,7 +138,7 @@ It was discovered that APC average votes were more than PDP average votes in 201
 
 
 
-
+ 
 ## Recommended Solutions
 
 >*For ;*
