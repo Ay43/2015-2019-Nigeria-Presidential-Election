@@ -54,7 +54,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 >*Table Information*
 
-The 2 tables(election_2015 and election_2019) consist of Eleven(11) columns each
+The 2 tables (election_2015 and election_2019) consist of Eleven(11) columns each
 
 
 | election_2015     | election_2019      |
@@ -68,8 +68,12 @@ The table structure has been created, data  has been loaded, we have an idea of 
 
 ## Findings:
 
->*What is the ?*
+>*How many states and geopolitical_zones contributed to the 2015 and 2019 presidential election?*
 
+In Nigeria, there is **36 states** and **1 Federal Capital Territory** present in the country making the sum total equals **37 states** available on the dataset and 6 geoplitical_zones in the country.
+
+
+![](ELECTION.jpg)
 
 
 
