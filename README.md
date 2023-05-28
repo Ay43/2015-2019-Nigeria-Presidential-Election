@@ -63,7 +63,7 @@ The 2 tables(election_2015 and election_2019) consist of Eleven(11) columns each
 
 
 The table structure has been created, data  has been loaded, we have an idea of each table informations so *lets dive into the findings*
-
+ 
 
 
 ## Findings:
