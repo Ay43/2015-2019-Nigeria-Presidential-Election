@@ -49,7 +49,7 @@ Data was provided in the raw form and can be found [here](https://www.kaggle.com
 
 * The data was loaded into the database from Server/PostgresSQL14/Databases/postgres/Schemas/Public/Tables/ then the 2 tables created namely election_2015 and election_2019.
 
-* From each of the tables created right click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. However, lets have a look on the table information of the two(2) tables namely election_2015 & elections_2019
+* From each of the tables created right-click/Import/filename/locate the file/click the format option/select csv/ go to columns and uncheck other colums that are not present in the file/ then OK. At this point our file has been loaded to the database and it is ready for queries 🙂. However, lets have a look on the table information of the two(2) tables namely election_2015 & elections_2019
 
 
 >*Table Information*
@@ -70,15 +70,24 @@ The table structure has been created, data  has been loaded, we have an idea of 
 
 >*How many states and geopolitical_zones contributed to the 2015 and 2019 presidential election?*
 
-In Nigeria, there is **36 states** and **1 Federal Capital Territory** present in the country making the sum total equals **37 states** available on the dataset and 6 geoplitical_zones in the country.
+In Nigeria, there are **36 states** and **1 Federal Capital Territory** present in the country making the sum total equals **37 states** available on the dataset and 6 geopolitical_zones in the country.
 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
 ![](s&gpcmd.png)   |![](s&gpr.png)
 
+Let us have a look at how APC & PDP were able to gather votes across the states and geopolitical zones in the country.
 
 
+>*What is the AVERAGE votes the 2 parties (Apc & Pdp) got in 2015 & 2019*
+
+It was discovered that APC average votes were more than PDP average votes in 2015 & 2019 respectively. Howvever, APC votes were reduced by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also reduced by 42978 votes in 2019 compare to their average votes in 2015.
+
+
+| Command Prompt    | Result     |
+|:----------------  |:--------------:|
+![](s&gpcmd.png)   |![](s&gpr.png)
 
 ## Conclusions:
 
