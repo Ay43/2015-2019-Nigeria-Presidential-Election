@@ -106,7 +106,7 @@ It appears that APC had 13 states out of the 37 cumulative number of states (inc
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
-![](.png)   |![](.png)
+![](apc_avgcmd.png)   |![](apc_avgr.png)
 
  
 
@@ -121,7 +121,7 @@ It also appears that PDP had 9 states out of the 37 cumulative number of states 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
-![](.png)   |![](.png)
+![](pdp_avgcmd.png)   |![](pdp_avgr.png)
 
 
 Let us do a COMPARISON between the 2 parties, we would be looking at how many votes by states did one party had above the average votes gotten by the other party in 2015 and 2019.
