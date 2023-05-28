@@ -73,7 +73,9 @@ The table structure has been created, data  has been loaded, we have an idea of 
 In Nigeria, there is **36 states** and **1 Federal Capital Territory** present in the country making the sum total equals **37 states** available on the dataset and 6 geoplitical_zones in the country.
 
 
-![](ELECTION.jpg)
+| Command Prompt    | Result     |
+|:----------------  |:--------------:|
+![](s&gpcmd.png)   |![](s&gpr.png)
 
 
 
