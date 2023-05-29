@@ -180,7 +180,7 @@ Let us have a look at a comparison of how many states were WON by APC that were 
 
 &nbsp; 
  
->*How many states were WON by APC above PDP **(2015: *1,487,075*, 2019: *649,612*)** HIGHEST votes in 2015 and 2019*
+>*How many states were WON by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
 
 In 2015
 
