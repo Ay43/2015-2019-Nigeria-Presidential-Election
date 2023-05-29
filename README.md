@@ -82,7 +82,7 @@ Let us have a look at how APC & PDP were able to gather votes across the states 
 
 >*What is the AVERAGE votes the 2 parties (Apc & Pdp) got in 2015 & 2019*
 
-It was discovered that APC (2015: *416890*, 2019: *410590*) average votes were more than PDP (2015: *347383*, 2019: *304405*) average votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also **fell** 🔽 by 42978 votes in 2019 compare to their average votes in 2015.
+It was discovered that APC **(2015: *416890*, 2019: *410590*)** average votes were more than PDP **(2015: *347383*, 2019: *304405*)** average votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also **fell** 🔽 by 42978 votes in 2019 compare to their average votes in 2015.
 
 
 | Command Prompt    | Result     |
@@ -97,7 +97,7 @@ Let us have a look at how the 2 parties were individually affected by the averag
 
 **APC**
 
->*How many APC votes by states were above APC average (2015: *416890*, 2019: *410590*) votes got in 2015 & 2019?*
+>*How many APC votes by states were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
@@ -112,7 +112,7 @@ It appears that APC had **13** states out of the 37 cumulative number of states 
 
 **PDP**
 
->*How many PDP votes by states were above PDP average (2015: *347383*, 2019: *304405*) votes got in 2015 & 2019?*
+>*How many PDP votes by states were above PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
 
 
 
@@ -130,7 +130,7 @@ Let us do a COMPARISON between the 2 parties, we would be looking at how many vo
 
 **APC**
 
->*How many APC votes by states were ABOVE PDP average (2015: *347383*, 2019: *304405*) votes got in 2015 & 2019?*
+>*How many APC votes by states were ABOVE PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
 
 
 
@@ -145,7 +145,7 @@ It was discovered that APC had **18** states out of the 37 cumulative number of 
 
 **PDP**
 
->*How many PDP votes by states were above APC average (2015: *416890*, 2019: *410590*) votes got in 2015 & 2019?*
+>*How many PDP votes by states were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
