@@ -165,12 +165,14 @@ At this point, we already have an understanding how the 2 parties were affected 
 >*What is the HIGHEST votes the 2 parties (Apc & Pdp) got in 2015 & 2019*
 
 
-It was discovered that APC average votes were more than PDP average votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 by 6300 votes in 2019 compare to their average votes in 2015 while PDP votes also **fell** 🔽 by 42978 votes in 2019 compare to their average votes in 2015.
+In 2015, the highest votes gotten by the 2 parties (apc & pdp) were 1,903,999 & 1,487,075 respectively while 2019 votes were 1,464,768 & 649,612 respectively. 
+
+However, APC votes **fell** 🔽 by 439,231 in 2019 compare to their highest votes in 2015 while PDP votes also **fell** 🔽 by 837,463 votes in 2019 compare to their highest votes in 2015.
 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
-![](png)   |![](.png)
+![](max_vcmd.png)   |![](max_vr.png)
 
 
 
