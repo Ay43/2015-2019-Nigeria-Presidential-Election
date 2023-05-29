@@ -182,7 +182,38 @@ Let us have a look at a comparison of how many states were WON by APC that were 
  
 >*How many states were WON by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
 
-In 2015
+In **2015**, Kano state was the only state with **1,903,999** votes for apc which were higher than pdp highest votes *1,487,075* in the country
+
+
+| Command Prompt       | Result     |
+|:----------------     |:--------------:|
+![](apc_p2015_mc.png)  |![](apc_p2015_mr.png)
+
+
+While
+
+In **2019**, "Kano"
+"Katsina"
+"Kaduna"
+"Borno"
+"Bauchi"
+"Jigawa" states were the states with votes for apc that were higher than pdp highest votes *649,612* in the country
+
+
+| Command Prompt       | Result     |
+|:----------------     |:--------------:|
+![](apc_p2019_mc.png)  |![](apc_p2019_mr.png)
+
+
+*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than the highest votes pdp got in 2015 presidential election and still delivered more votes for apc during the 2019 presidential election which were still HIGHER the highest votes pdp got in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](apc_p2015.9_mc.png) |![](apc_p2015.9_mr.png)
+
+
+ Kano delivered **1,903,999** votes in 2015 (Higher than the most votes 1,487,075 pdp got in the same year) and still delivered **1,464,768** votes in 2019 (Higher than the most votes 649,612 pdp got in the same year).
 
 
 
