@@ -101,7 +101,7 @@ Let us have a look at how the 2 parties were individually affected by the averag
 
 
 
-It appears that APC had 13 states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It appears that APC had **13** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
@@ -116,7 +116,7 @@ It appears that APC had 13 states out of the 37 cumulative number of states (inc
 
 
 
-It also appears that PDP had 9 states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It also appears that PDP had **9** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
@@ -128,9 +128,36 @@ Let us do a COMPARISON between the 2 parties, we would be looking at how many vo
 
 
 
+**APC**
+
+>*How many APC votes by states were ABOVE PDP average votes got in 2015 & 2019?*
 
 
 
+It was discovered that APC had **18** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were ABOVE the PDP AVERAGE votes got in 2015 and 2019.
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](apc_pdp_avgcmd.png) |![](apc_pdp_avgr.png)
+
+ 
+
+**PDP**
+
+>*How many PDP votes by states were above APC average votes got in 2015 & 2019?*
+
+
+
+It was also discovered that PDP had **6** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were ABOVE the APC AVERAGE votes got in 2015 and 2019.
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](pdp_apc_avgcmd.png) |![](pdp_apc_avgr.png)
+
+
+At this point, we already have an understanding how the 2 parties were affected by the average votes got individually and in comparison in 2015 and 2019. Lets take it further to see how they were affected by the HIGHEST votes.
 
 ## Conclusions:
 
