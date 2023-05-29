@@ -100,11 +100,11 @@ Let us have a look at how the 2 parties were individually affected by the averag
 
  &nbsp;
 
->*How many APC votes by states were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
+>*How many votes by APC were above its average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
-It appears that APC had **13** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It appears that APC had **13** states out of the 37 cumulative number of states (including the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
@@ -114,11 +114,11 @@ It appears that APC had **13** states out of the 37 cumulative number of states 
  
  &nbsp; 
 
->*How many PDP votes by states were above PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
+>*How many votes by PDP were above its average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
 
 
 
-It also appears that PDP had **9** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It also appears that PDP had **9** states out of the 37 cumulative number of states (including the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
@@ -131,11 +131,11 @@ Let us do a COMPARISON between the 2 parties, we would be looking at how many vo
 
  &nbsp; 
 
->*How many APC votes by states were ABOVE PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
+>*How many votes by APC were ABOVE PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
 
 
 
-It was discovered that APC had **18** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were ABOVE the PDP AVERAGE votes got in 2015 and 2019.
+It was discovered that APC had **18** states out of the 37 cumulative number of states (includlng the federal capital territory) votes that were ABOVE the PDP AVERAGE votes got in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -145,11 +145,11 @@ It was discovered that APC had **18** states out of the 37 cumulative number of 
  
  &nbsp; 
 
->*How many PDP votes by states were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
+>*How many votes by PDP were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
-It was also discovered that PDP had **6** states out of the 37 cumulative number of states (includung the federal capital territory) votes that were ABOVE the APC AVERAGE votes got in 2015 and 2019.
+It was also discovered that PDP had **6** states out of the 37 cumulative number of states (including the federal capital territory) votes that were ABOVE the APC AVERAGE votes got in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -157,7 +157,7 @@ It was also discovered that PDP had **6** states out of the 37 cumulative number
 ![](pdp_apc_avgcmd.png) |![](pdp_apc_avgr.png)
 
 
-At this point, we already have an understanding how the 2 parties were affected by the average votes got individually and in comparison in 2015 and 2019. *Lets take it further to see the highest vote they got in 2015 & 2019 and how they were affected by it individually and in comparison*.
+At this point, we already have an understanding how the 2 parties were affected by the average votes they got individually and in comparison in 2015 and 2019. *Lets take it further to see the highest vote they got in 2015 & 2019 and how they were affected by it individually and in comparison*.
 
 
  &nbsp; 
@@ -205,7 +205,7 @@ In **2019**, "Kano"
 ![](apc_p2019_mc.png)  |![](apc_p2019_mr.png)
 
 
-*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than the highest votes pdp got in 2015 presidential election and still delivered more votes for apc during the 2019 presidential election which were still HIGHER the highest votes pdp got in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
+*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than the highest votes pdp got in 2015 presidential election and still delivered more votes for apc during the 2019 presidential election which were still HIGHER than the highest votes pdp got in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
 
 
 | Command Prompt        | Result     |
@@ -213,8 +213,43 @@ In **2019**, "Kano"
 ![](apc_p2015.9_mc.png) |![](apc_p2015.9_mr.png)
 
 
- Kano delivered **1,903,999** votes in 2015 (Higher than the most votes 1,487,075 pdp got in the same year) and still delivered **1,464,768** votes in 2019 (Higher than the most votes 649,612 pdp got in the same year).
+ Kano delivered **1,903,999** votes in 2015 for apc (Higher than the most votes 1,487,075 pdp got in the same year) and still delivered **1,464,768** votes in 2019 for apc (Higher than the most votes 649,612 pdp got in the same year).
 
+Okay enough for all the apc wins let us have a look at how pdp got more votes than the most votes of apc in 2015 and 2019.
+
+
+&nbsp; 
+ 
+>*How many states were WON by PDP above APC **(2015: *1903999* , 2019: *1464768*)** HIGHEST votes in 2015 and 2019*
+
+Apparently, there were no states won by pdp above apc highest votes in 2015
+
+| Command Prompt       | Result     |
+|:----------------     |:--------------:|
+![](.png)  |![](.png)
+
+
+Also
+
+Samething happened in 2019. There were no votes by states won by pdp above apc highest in 2019.
+
+
+| Command Prompt       | Result     |
+|:----------------     |:--------------:|
+![](.png)  |![](.png)
+
+
+*if there were no votes by states won by pdp above apc highest in the individual years, Of course you can guess there would nothing when we check for the years combined* 😞
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](png) |![](.png)
+
+
+Okay that is that. Let me now show you
+
+ 
 
 
 ## Conclusions:
