@@ -135,7 +135,7 @@ Let us do a COMPARISON between the 2 parties, we would be looking at how many vo
 
 
 
-It was discovered that APC had **18** states out of the 37 cumulative number of states (includlng the federal capital territory) votes that were ABOVE the PDP AVERAGE votes got in 2015 and 2019.
+It was discovered that APC had **18** states out of the 37 cumulative number of states (includlng the federal capital territory) votes that were ABOVE the PDP AVERAGE votes in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -145,11 +145,11 @@ It was discovered that APC had **18** states out of the 37 cumulative number of 
  
  &nbsp; 
 
->*How many votes by PDP were above APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
+>*How many votes by PDP were ABOVE APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
-It was also discovered that PDP had **6** states out of the 37 cumulative number of states (including the federal capital territory) votes that were ABOVE the APC AVERAGE votes got in 2015 and 2019.
+It was also discovered that PDP had **6** states out of the 37 cumulative number of states (including the federal capital territory) votes that were ABOVE the APC AVERAGE votes in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -180,7 +180,7 @@ Let us have a look at a comparison of how many states were WON by APC that were 
 
 &nbsp; 
  
->*How many states were WON by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
+>*How many states votes were gotten by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
 
 In **2015**, Kano state was the only state with **1,903,999** votes for apc which were higher than pdp highest votes *1,487,075* in the country
 
@@ -205,7 +205,7 @@ In **2019**, "Kano"
 ![](apc_p2019_mc.png)  |![](apc_p2019_mr.png)
 
 
-*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than the highest votes pdp got in 2015 presidential election and still delivered more votes for apc during the 2019 presidential election which were still HIGHER than the highest votes pdp got in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
+*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than pdp highest in 2015 and still delivered more votes for apc during the 2019 presidential election which were still HIGHER pdp highest in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
 
 
 | Command Prompt        | Result     |
@@ -215,14 +215,14 @@ In **2019**, "Kano"
 
  Kano delivered **1,903,999** votes in 2015 for apc (Higher than the most votes 1,487,075 pdp got in the same year) and still delivered **1,464,768** votes in 2019 for apc (Higher than the most votes 649,612 pdp got in the same year).
 
-Okay enough for all the apc wins let us have a look at how pdp got more votes than the most votes of apc in 2015 and 2019.
+Okay enough for all the apc wins let us have a look at how pdp got more votes than apc highest in 2015 and 2019.
 
 
 &nbsp; 
  
->*How many states were WON by PDP above APC **(2015: *1903999* , 2019: *1464768*)** HIGHEST votes in 2015 and 2019*
+>*How many states votes were gotten by PDP above APC **(2015: *1903999* , 2019: *1464768*)** HIGHEST votes in 2015 and 2019*
 
-Apparently, there were no states won by pdp above apc highest votes in 2015
+Apparently, there were no states votes by pdp above apc highest in 2015
 
 | Command Prompt       | Result     |
 |:----------------     |:--------------:|
@@ -231,7 +231,7 @@ Apparently, there were no states won by pdp above apc highest votes in 2015
 
 Also
 
-Samething happened in 2019. There were no votes by states won by pdp above apc highest in 2019.
+Samething happened in 2019. There were no states votes by pdp above apc highest in 2019.
 
 
 | Command Prompt       | Result     |
@@ -239,7 +239,7 @@ Samething happened in 2019. There were no votes by states won by pdp above apc h
 ![](pdp_a2019_mc.png)  |![](pdp_a2019_mr.png)
 
 
-*if there were no votes by states won by pdp above apc highest in the individual years, Of course you can guess there would nothing when we check for the years combined* 😞
+*if there were no states votes won by pdp above apc highest in the individual years, Of course you can guess there would be nothing when we check for the years combined* 😞
 
 
 | Command Prompt        | Result     |
@@ -247,9 +247,14 @@ Samething happened in 2019. There were no votes by states won by pdp above apc h
 ![](pdp_a2015.9_mc.png) |![](pdp_a2015.9_mr.png)
 
 
-Okay that is that. Let me now show you
+Okay that is that. Let me now show you the states WON by APC and the percentage difference compare to PDP number of votes from the same states during the 2015 and 2019 Presidential election
 
+
+&nbsp; 
  
+>*How many states were WON by APC 2015 & 2019 and in what percentage?*
+
+In 20
 
 
 ## Conclusions:
