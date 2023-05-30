@@ -226,7 +226,7 @@ Apparently, there were no states won by pdp above apc highest votes in 2015
 
 | Command Prompt       | Result     |
 |:----------------     |:--------------:|
-![](.png)  |![](.png)
+![](pdp_a2015_mc.png)  |![](pdp_a2015_mr.png)
 
 
 Also
@@ -236,7 +236,7 @@ Samething happened in 2019. There were no votes by states won by pdp above apc h
 
 | Command Prompt       | Result     |
 |:----------------     |:--------------:|
-![](.png)  |![](.png)
+![](pdp_a2019_mc.png)  |![](pdp_a2019_mr.png)
 
 
 *if there were no votes by states won by pdp above apc highest in the individual years, Of course you can guess there would nothing when we check for the years combined* 😞
@@ -244,7 +244,7 @@ Samething happened in 2019. There were no votes by states won by pdp above apc h
 
 | Command Prompt        | Result     |
 |:----------------      |:--------------:|
-![](png) |![](.png)
+![](pdp_a2015.9_mc.png) |![](pdp_a2015.9_mr.png)
 
 
 Okay that is that. Let me now show you
