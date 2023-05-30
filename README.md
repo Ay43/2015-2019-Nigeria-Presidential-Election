@@ -273,8 +273,8 @@ Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumul
 And thats not all, I went further to check for the states WON by APC in both years and by their percentage (I means states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states (includlng the federal capital territory) were WON by APC in 2015 & 2019 presidential election in the country.
 
 
-| Command Prompt        | Result     |
-|:----------------      |:--------------:|
+| Command Prompt          | Result     |
+|:----------------        |:--------------:|
 ![](apc%_p2015.9mc.png)   |![](apc%_p2015.9mr.png) 
 
 
