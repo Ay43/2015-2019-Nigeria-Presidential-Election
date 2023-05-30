@@ -252,9 +252,14 @@ Okay that is that. Let me now show you the states WON by APC and the percentage 
 
 &nbsp; 
  
->*How many states were WON by APC 2015 & 2019 and in what percentage?*
+>*How many states were WON by APC in 2015 & 2019 Presidential Election and in what percentage?*
 
-In 20
+In **2015**, It was discovered that APC WON **21** states out of the 37 cumulative number of states (includlng the federal capital territory) during the presidential election with the HIGHEST votes gap percentage from BORNO state leading pdp in the state with *90%* votes and the least votes gap percentage was from ONDO state leading pdp with *9%* votes
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](.png) |![](.png) 
 
 
 ## Conclusions:
