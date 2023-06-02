@@ -259,7 +259,7 @@ In **2015**, It was discovered that APC WON **21** states out of the 37 cumulati
 
 | Command Prompt        | Result     |
 |:----------------      |:--------------:|
-![](apc%_p2015mc.png)   |![](apc%_p2015mr.png) 
+![](apcp_p2015mc.png)   |![](apcp_p2015mr.png) 
 
 
 Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumulative number of states (includlng the federal capital territory) during the presidential election with the HIGHEST percentage votes gap from BORNO state again (borno must be very loyal to apc 😆) leading pdp in the state with *84%* votes (that's like 6% fall 🔽 compare to 2015) and the least percentage votes gap was from OSUN & NASSARAWA states leading pdp with *1%* votes each respectively
@@ -267,7 +267,7 @@ Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumul
 
 | Command Prompt        | Result     |
 |:----------------      |:--------------:|
-![](apc%_p2019mc.png)   |![](apc%_p2019mr.png) 
+![](apcp_p2019mc.png)   |![](apcp_p2019mr.png) 
 
 
 And thats not all, I went further to check for the states WON by APC in both years and by their percentage (I means states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states (includlng the federal capital territory) were WON by APC in 2015 & 2019 presidential election in the country.
@@ -275,7 +275,7 @@ And thats not all, I went further to check for the states WON by APC in both yea
 
 | Command Prompt          | Result     |
 |:----------------        |:--------------:|
-![](apc%_p2015.9mc.png)   |![](apc%_p2015.9mr.png) 
+![](apcp_p2015.9mc.png)   |![](apcp_p2015.9mr.png) 
 
 
 What does this tell us? Apparently 17 states are loyal to apc in the country 🤔. Let us now have a look at states WON by PDP and the percentage difference compare to APC number of votes from the same states during the 2015 and 2019 Presidential election
