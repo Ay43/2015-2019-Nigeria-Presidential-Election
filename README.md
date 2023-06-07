@@ -306,7 +306,7 @@ Also, Let us have a look at the states WON by PDP in 2015 and 2019 combined (i.e
 
 | Command Prompt          | Result     |
 |:----------------        |:--------------:|
-![](pdp_a2015.9_mc.png)   |![](pdp_a2015.9_mr.png) 
+![](pdp.a_2015_9_mc.png)   |![](pdp.a_2015_9_mr.png) 
 
 Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** states. This could also mean 14 states are loyal to PDP in the country 🤔.
 
