@@ -290,7 +290,7 @@ In **2015**, The data has shown that PDP WON **16** states out of the 37 cumulat
 
 | Command Prompt        | Result     |
 |:----------------      |:--------------:|
-![](pdp_a2015_mc.png)   |![](pdp_a2015_mr.png) 
+![](pdp.a_2015_mc.png)   |![](pdp.a_2015_mr.png) 
 
 
 While, In **2019**, PDP WON **18** states out of the 37 cumulative number of states during the presidential election with the HIGHEST percentage votes gap from ANAMBRA state leading apc in the state with *88.1%* votes and the least percentage votes gap were from OYO states leading apc with *0.2%* votes in the state
@@ -298,7 +298,7 @@ While, In **2019**, PDP WON **18** states out of the 37 cumulative number of sta
 
 | Command Prompt        | Result     |
 |:----------------      |:--------------:|
-![](pdp_a2019_mc.png)   |![](pdp_a2019_mr.png) 
+![](pdp.a_2019_mc.png)   |![](pdp.a_2019_mr.png) 
 
 
 Also, Let us have a look at the states WON by PDP in 2015 and 2019 combined (i.e states won by pdp in 2015 and still won in 2019)
