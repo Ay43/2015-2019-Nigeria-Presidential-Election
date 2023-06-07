@@ -254,7 +254,7 @@ Okay that is that. Let me now show you the states WON by APC and the percentage 
  
 >*How many states were WON by APC in 2015 & 2019 Presidential Election and in what percentage?*
 
-In **2015**, It was discovered that APC WON **21** states out of the 37 cumulative number of states (includlng the federal capital territory) during the presidential election with the HIGHEST percentage votes gap from BORNO state leading pdp in the state with *90%* votes and the least percentage votes gap  was from ONDO state leading pdp with *9%* votes
+In **2015**, It was discovered that APC WON **21** states out of the 37 cumulative number of states during the presidential election with the HIGHEST percentage votes gap from BORNO state leading pdp in the state with *90%* votes and the least percentage votes gap was from ONDO state leading pdp with *9%* votes
 
 
 | Command Prompt        | Result     |
@@ -262,7 +262,7 @@ In **2015**, It was discovered that APC WON **21** states out of the 37 cumulati
 ![](apcp_p2015mc.png)   |![](apcp_p2015mr.png) 
 
 
-Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumulative number of states (includlng the federal capital territory) during the presidential election with the HIGHEST percentage votes gap from BORNO state again (borno must be very loyal to apc 😆) leading pdp in the state with *84%* votes (that's like 6% fall 🔽 compare to 2015) and the least percentage votes gap was from OSUN & NASSARAWA states leading pdp with *1%* votes each respectively
+Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumulative number of states during the presidential election with the HIGHEST percentage votes gap from BORNO state again (borno must be very loyal to apc 😆) leading pdp in the state with *84%* votes (that's like 6% fall 🔽 compare to 2015) and the least percentage votes gap were from OSUN & NASSARAWA states leading pdp with *1%* votes each respectively in the state
 
 
 | Command Prompt        | Result     |
@@ -270,7 +270,7 @@ Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumul
 ![](apcp_p2019mc.png)   |![](apcp_p2019mr.png) 
 
 
-And thats not all, I went further to check for the states WON by APC in both years and by their percentage (I means states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states (includlng the federal capital territory) were WON by APC in 2015 & 2019 presidential election in the country.
+And thats not all, I went further to check for the states WON by APC in both years and by their percentage (i.e states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states were WON by APC in 2015 & 2019 presidential election in the country.
 
 
 | Command Prompt          | Result     |
@@ -278,12 +278,37 @@ And thats not all, I went further to check for the states WON by APC in both yea
 ![](apcp_p2015.9mc.png)   |![](apcp_p2015.9mr.png) 
 
 
-What does this tell us? Apparently 17 states are loyal to apc in the country 🤔. Let us now have a look at states WON by PDP and the percentage difference compare to APC number of votes from the same states during the 2015 and 2019 Presidential election
+What does this tell us? Apparently 17 states are loyal to APC in the country 🤔. Let us now have a look at states WON by PDP and the percentage difference compare to APC number of votes from the same states during the 2015 and 2019 Presidential election
 
 
+&nbsp; 
+ 
+>*How many states were WON by PDP in 2015 & 2019 Presidential Election and in what percentage?*
+
+In **2015**, The data has shown that PDP WON **16** states out of the 37 cumulative number of states during the presidential election leading apc with the HIGHEST percentage votes gap of *97%* from BAYELSA state while FCT (federal capital territory) gave PDP the least percentage votes gap leading apc with *4%* votes
 
 
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](.png)   |![](.png) 
 
+
+While, In **2019**, PDP WON **18** states out of the 37 cumulative number of states during the presidential election with the HIGHEST percentage votes gap from ANAMBRA state leading apc in the state with *88.1%* votes and the least percentage votes gap were from OYO states leading apc with *0.2%* votes in the state
+
+
+| Command Prompt        | Result     |
+|:----------------      |:--------------:|
+![](.png)   |![](.png) 
+
+
+Also, Let us have a look at the states WON by PDP in 2015 and 2019 combined (i.e states won by pdp in 2015 and still won in 2019)
+
+
+| Command Prompt          | Result     |
+|:----------------        |:--------------:|
+![](.png)   |![](.png) 
+
+Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** states. This could also mean 14 states are loyal to PDP in the country 🤔.
 
 ## Conclusions:
 
