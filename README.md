@@ -308,7 +308,18 @@ Also, Let us have a look at the states WON by PDP in 2015 and 2019 combined (i.e
 |:----------------        |:--------------:|
 ![](pdp.a_2015_9_mc.png)   |![](pdp.a_2015_9_mr.png) 
 
-Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** states. This could also mean 14 states are loyal to PDP in the country 🤔.
+Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** states. This could also mean 14 states are loyal to PDP in the country 🤔. Let us have a view on how PDP and APC influenced the votes in the geopolitical zones in the country during the 2015 and 2019 presidential Election.
+
+
+&nbsp; 
+ 
+>*How many votes did APC and PDP got from the geopolitical zones in the country during the 2015 & 2019 Presidential election?*
+
+
+
+
+
+
 
 ## Conclusions:
 
