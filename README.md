@@ -313,7 +313,20 @@ Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** s
 
 &nbsp; 
  
->*How many votes did APC and PDP got from the geopolitical zones in the country during the 2015 & 2019 Presidential election?*
+>*What is the Total Votes gotten by APC and PDP from the geopolitical zones in the country during the 2015 & 2019 Presidential election?*
+
+
+Data Shown that APC **(2015: *15,424,921*, 2019: *15,191,847*)** total votes gotten by APC were more than PDP **(2015: *12,853,162*, 2019: *11,262,978*)** total votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 by 233,074 votes in 2019 compare to the total votes gotten in 2015 while PDP votes also **fell** 🔽 by 1,590,184 votes in 2019 compare to the total votes gotten in 2015.
+
+
+| Command Prompt    | Result     |
+|:----------------  |:--------------:|
+![](avg_vcmd.png)   |![](avg_votes.png)
+
+
+Let us have a look at how the 2 parties were individually affected by the average votes.
+
+
 
 
 
