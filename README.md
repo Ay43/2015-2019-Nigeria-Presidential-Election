@@ -323,7 +323,7 @@ Data Shown that APC **(2015: *15,424,921*, 2019: *15,191,847*)** total votes wer
 |:----------------  |:--------------:|
 ![](.png)   |![](.png)
 
-
+ 
 Let us have a look at how the 2 parties were voted for by the geopolitical_zones in the country.
 
 
