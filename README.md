@@ -382,7 +382,7 @@ In **2019**, PDP still WON **2** (Southeast and Southsouth) geopolitical zones w
 |:----------------     |:--------------:|
 ![](e2019%_pgz_mc.png) |![](e2019%_pgz_mr.png)
 
-
+ 
 Hmmm 🤔, seems pdp have their foot well grounded in the Southeast and Southsouth respectively. Okay let's have breakdown of how the 2 parties got the votes in 2015 & 2019
 
 
