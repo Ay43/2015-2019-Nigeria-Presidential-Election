@@ -339,7 +339,52 @@ It was discovered that NORTHWEST provided Apc with the most votes in 2015 & 2019
 ![](gz.tot_mc.png)   |![](gz.tot_mr.png)
 
 
-Let us have a look at how the 2 parties were voted for by the geopolitical_zones in the country.
+Let us have a look at how the APC influenced votes by percentage in the geopolitical zones over Pdp during the 2015 & 2019 Presidential Election.
+
+
+&nbsp; 
+ 
+>*What is the percentage votes by geopolitical zones WON by APC compare to Pdp in 2015 and 2019 Presidential Election?*
+
+In **2015**, APC WON **4** (Northwest, Northeast, Northcentral, Southwest) geopolitical zones out of the 6 geopolitical zones present in the country during the presidential election with the HIGHEST percentage votes from the NORTH WEST leading pdp with *68%* votes and the least percentage votes was from the SOUTH WEST leading pdp with *14%* votes
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](e2015%_agz_mc.png) |![](e2015%_agz_mr.png)
+
+Also In **2019**, APC still WON **4** (Northwest, Northeast, Northcentral, Southwest) geopolitical zones with the HIGHEST percentage votes again from the NORTH WEST leading pdp with *45%* votes this time and the least percentage votes was also from the SOUTH WEST leading pdp with *7%* votes.
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](e2019%_agz_mc.png) |![](e2019%_agz_mr.png)
+
+
+A quick view on how PDP influenced votes by percentage in the geopolitical zones over Apc during the 2015 & 2019 Presidential Election.
+
+
+&nbsp; 
+ 
+>*What is the percentage votes by geopolitical zones WON by PDP compare to Apc in 2015 and 2019 Presidential Election?*
+
+In **2015**, Data showed that PDP WON **2** (Southeast and Southsouth) geopolitical zones out of the 6 geopolitical zones present in the country with the HIGHEST percentage votes from the SOUTH EAST leading apc with *85%* votes While the least percentage votes was from the SOUTH SOUTH leading apc with *84%* votes. Lets have a look at their influence in 2019
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](e2015%_pgz_mc.png) |![](e2015%_pgz_mr.png)
+
+In **2019**, PDP still WON **2** (Southeast and Southsouth) geopolitical zones with the HIGHEST percentage votes from the SOUTH EAST but this time leading apc with *61%* votes and the least percentage votes was also from the SOUTH EAST leading apc with *36%* votes.
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](e2019%_pgz_mc.png) |![](e2019%_pgz_mr.png)
+
+
+Hmmm 🤔, seems pdp have their foot well grounded in the Southeast and Southsouth respectively. Okay let's have breakdown of how the 2 parties got the votes in 2015 & 2019
+
 
 
 ## Conclusions:
