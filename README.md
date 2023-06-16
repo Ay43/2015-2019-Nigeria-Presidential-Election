@@ -395,7 +395,7 @@ In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 votes respectively from the N
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
-![](tnwmc.png)         |![](tnwmr.png)
+![](tnw_mc.png)        |![](tnw_mr.png)
 
 
 
