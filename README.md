@@ -383,8 +383,23 @@ In **2019**, PDP still WON **2** (Southeast and Southsouth) geopolitical zones w
 ![](e2019_pgz_mc.png) |![](e2019_pgz_mr.png)
 
  
-Hmmm 🤔, seems pdp have their foot well grounded in the Southeast and Southsouth respectively. Okay let's have breakdown of how the 2 parties got the votes in 2015 & 2019
+It seems pdp have their foot well grounded in the Southeast and Southsouth respectively. Okay let's have a breakdown of how the 2 parties got their votes from the country's geopolitical zone in 2015 & 2019
 
+
+&nbsp; 
+ 
+>*How did they (Apc & Pdp) influence votes in the NORTHWEST during the 2015 and 2019 Presidential Election?*
+
+In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 votes respectively from the NORTHWEST and 5,995,651 &	2,280,465 respectively in **2019**. There is 1,119,548 fall 🔽 in the total votes gotten by Apc in 2019 compare to 2015 and an increase 🔼 of 940,756 total votes gotten by Pdp in 2019 compare to 2015.
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tnwmc.png)         |![](tnwmr.png)
+
+
+
+In
 
 
 ## Conclusions:
