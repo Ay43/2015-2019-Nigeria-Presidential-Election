@@ -464,7 +464,7 @@ However, Lets have a look at how the states in the South-south voted the 2 parti
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-EAST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, 
+In **2015**, Apc and Pdp got 2,848,678	& 796,588 total votes respectively in the region and got 3,238,783	& 1,255,357 total votes respectively in **2019**. It appears the 2 parties had more votes in 2019 compare to 2015 with 390,105	& 458,769 increased 🔼 in total votes in 2019.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
@@ -482,7 +482,7 @@ However, Lets have a look at how the states in the North-east voted the 2 partie
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-EAST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, 
+In **2015**, It appears Apc had lesser votes in the South-east compare toi Pdp with total votes of 198,248	& 2,464,906 respectively. Also, In  **2019** Apc still had lesser votes compare to pdp with 403,968	& 1,693,485 total votes respectively. The total votes received by Apc in the region was increased by 205,720 votes in 2019 while Pdp had a fall 🔽 of 771,421 total votes in 2019.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
@@ -493,6 +493,9 @@ However, Lets have a look at how the states in the South-east voted the 2 partie
 | Command Prompt        | Result         |
 |:----------------      |:--------------:|
 ![](e2015_19_semc.png)  |![](e2015_19_semr.png)
+
+
+After carefully analysing the 2015 and 2019 presidential election data, Lets have a look at the conclusions and recommended solutions.
 
 
 &nbsp;
