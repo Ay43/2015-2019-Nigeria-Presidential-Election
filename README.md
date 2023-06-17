@@ -388,7 +388,7 @@ It seems pdp have their foot well grounded in the Southeast and Southsouth respe
 
 &nbsp; 
  
->*How did they (Apc & Pdp) influence votes in the NORTHWEST during the 2015 and 2019 Presidential Election?*
+>*How did the 2 parties (Apc & Pdp) influence votes in the *NORTHWEST* during the 2015 and 2019 Presidential Election?*
 
 In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 total votes respectively from the NORTHWEST and 5,995,651 &	2,280,465 total votes respectively in **2019**. There is 1,119,548 fall 🔽 in the total votes gotten by Apc in 2019 compare to 2015 and an increase 🔼 of 940,756 total votes gotten by Pdp in 2019 compare to 2015 from the Nortwest region.
 
@@ -397,15 +397,33 @@ In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 total votes respectively from
 |:----------------     |:--------------:|
 ![](tnw_mc.png)        |![](tnw_mr.png)
 
-However, Lets have a look at the states breakdown of the total votes gotten by the 2 parties (Apc & Pdp) from the Northwest.
+However, Lets have a look at how the states in the Northwest voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
 
 | Command Prompt        | Result         |
 |:----------------      |:--------------:|
 ![](e2015_19_nwmc.png)  |![](e2015_19_nwmr.png)
 
 
+>*How did the 2 parties (Apc & Pdp) influence votes in the *SOUTHWEST* during the 2015 and 2019 Presidential Election?*
 
-In
+In **2015**, The total votes gotten by Apc and Pdp from the Southwest were 2,433,193 &	1,821,416 respectively with 2,036,450 &	1,776,670 respectively in **2019**. The data shows that there were total of 396,743 & 44,746 fall 🔽 respectively in the votes gotten by the 2 parties in the region in 2019 compare to 2015.
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tsw_mc.png)        |![](tsw_mr.png)
+
+However, Lets have a look at how the states in the Southwest voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_swmc.png)  |![](e2015_19_swmr.png)
+
+
+
+
+
+
 
 
 ## Conclusions:
