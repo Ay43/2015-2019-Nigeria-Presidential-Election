@@ -447,7 +447,7 @@ However, Lets have a look at how the states in the North-central voted the 2 par
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-SOUTH* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, 
+In **2015**, Apc and Pdp were able to gather the total votes of 418,590	& 4,714,725 respectively and in **2019** they both got 1,051,396	& 2,233,232 total votes respectively which is 632,806 increased 🔼 votes by Apc in 2019 compare to 2015 and a 2,481,493 fall 🔽 in Pdp total votes gotten in 2019 compare to 2015.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
