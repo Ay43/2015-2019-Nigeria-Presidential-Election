@@ -404,6 +404,8 @@ However, Lets have a look at how the states in the Northwest voted the 2 parties
 ![](e2015_19_nwmc.png)  |![](e2015_19_nwmr.png)
 
 
+&nbsp;
+
 >*How did the 2 parties (Apc & Pdp) influence votes in the *SOUTHWEST* during the 2015 and 2019 Presidential Election?*
 
 In **2015**, The total votes gotten by Apc and Pdp from the Southwest were 2,433,193 &	1,821,416 respectively with 2,036,450 &	1,776,670 respectively in **2019**. The data shows that there were total of 396,743 & 44,746 fall 🔽 respectively in the votes gotten by the 2 parties in the region in 2019 compare to 2015.
@@ -420,11 +422,96 @@ However, Lets have a look at how the states in the Southwest voted the 2 parties
 ![](e2015_19_swmc.png)  |![](e2015_19_swmr.png)
 
 
+&nbsp;
+
+>*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTHCENTRAL* during the 2015 and 2019 Presidential Election?*
+
+In **2015**, Northcentral contibuted to the presidential election with 2,411,013 &	1,715,818 total votes from Apc and Pdp respectively While in **2019** the 2 parties got 2,465,599	& 2,023,769 total votes respectively from the region which shows there was 54,586 & 307,951 increase 🔼 from the 2 partis respectively in 2019 compare to 2015.
+
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tnc_mc.png)        |![](tnc_mr.png)
+
+However, Lets have a look at how the states in the Northcentral voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_ncmc.png)  |![](e2015_19_ncmr.png)
 
 
 
+&nbsp;
+
+>*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-SOUTH* during the 2015 and 2019 Presidential Election?*
+
+In **2015**, 
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tss_mc.png)        |![](tss_mr.png)
+
+However, Lets have a look at how the states in the Southsouth voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_ssmc.png)  |![](e2015_19_ssmr.png)
 
 
+&nbsp;
+
+>*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-EAST* during the 2015 and 2019 Presidential Election?*
+
+In **2015**, 
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tne_mc.png)        |![](tne_mr.png)
+
+However, Lets have a look at how the states in the Southsouth voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_nemc.png)  |![](e2015_19_nemr.png)
+
+
+
+&nbsp;
+
+>*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-EAST* during the 2015 and 2019 Presidential Election?*
+
+In **2015**, 
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tne_mc.png)        |![](tne_mr.png)
+
+However, Lets have a look at how the states in the Southsouth voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_nemc.png)  |![](e2015_19_nemr.png)
+
+
+
+&nbsp;
+
+>*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-EAST* during the 2015 and 2019 Presidential Election?*
+
+In **2015**, 
+
+| Command Prompt       | Result         |
+|:----------------     |:--------------:|
+![](tse_mc.png)        |![](tse_mr.png)
+
+However, Lets have a look at how the states in the Southeast voted the 2 parties (Apc & Pdp) during the 2015 & 2019 presidential election.
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](e2015_19_semc.png)  |![](e2015_19_semr.png)
+
+
+&nbsp;
 
 ## Conclusions:
 
