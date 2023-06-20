@@ -100,25 +100,26 @@ Let us have a look at how the 2 parties were individually affected by the averag
 
  &nbsp;
 
->*How many votes by APC were above its average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
+>*How many states votes were won by APC above its average in 2015 & 2019 **(2015: *416890*, 2019: *410590*)** ?*
 
 
 
-It appears that APC had **13** states out of the 37 cumulative number of states (including the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It appears that APC had **13** states out of the 37 cumulative number of states that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
 ![](apc_avgcmd.png)   |![](apc_avgr.png)
 
+what of Pdp votes above its average?
  
  &nbsp; 
 
->*How many votes by PDP were above its average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
+>*How many state votes were won by PDP above its average in 2015 & 2019 **(2015: *347383*, 2019: *304405*)** ?*
 
 
 
-It also appears that PDP had **9** states out of the 37 cumulative number of states (including the federal capital territory) votes that were above the AVERAGE votes they got in 2015 and 2019.
+It also appears that PDP had **9** states out of the 37 cumulative number of states votes that were above the AVERAGE votes they got in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
@@ -131,11 +132,10 @@ Let us do a COMPARISON between the 2 parties, we would be looking at how many vo
 
  &nbsp; 
 
->*How many votes by APC were ABOVE PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
+>*How many states votes WON by APC were ABOVE PDP average **(2015: *347383*, 2019: *304405*)** votes got in 2015 & 2019?*
 
 
-
-It was discovered that APC had **18** states out of the 37 cumulative number of states (includlng the federal capital territory) votes that were ABOVE the PDP AVERAGE votes in 2015 and 2019.
+It was discovered that APC had **18** states out of the 37 cumulative number of states votes that were ABOVE the PDP AVERAGE votes in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -145,11 +145,11 @@ It was discovered that APC had **18** states out of the 37 cumulative number of 
  
  &nbsp; 
 
->*How many votes by PDP were ABOVE APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
+>*How many states votes WON by PDP were ABOVE APC average **(2015: *416890*, 2019: *410590*)** votes got in 2015 & 2019?*
 
 
 
-It was also discovered that PDP had **6** states out of the 37 cumulative number of states (including the federal capital territory) votes that were ABOVE the APC AVERAGE votes in 2015 and 2019.
+It was also discovered that PDP had **6** states out of the 37 cumulative number of states votes that were ABOVE the APC AVERAGE votes in 2015 and 2019.
 
 
 | Command Prompt        | Result     |
@@ -180,9 +180,9 @@ Let us have a look at a comparison of how many states were WON by APC that were 
 
 &nbsp; 
  
->*How many states votes were gotten by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
+>*How many states votes were WON by APC above PDP **(2015: *1487075* , 2019: *649612*)** HIGHEST votes in 2015 and 2019*
 
-In **2015**, Kano state was the only state with **1,903,999** votes for apc which were higher than pdp highest votes *1,487,075* in the country
+In **2015**, Kano state was the only state with **1,903,999** votes for apc which were higher than pdp highest votes *1,487,075* in the country that year
 
 
 | Command Prompt       | Result     |
@@ -190,14 +190,14 @@ In **2015**, Kano state was the only state with **1,903,999** votes for apc whic
 ![](apc_p2015_mc.png)  |![](apc_p2015_mr.png)
 
 
-While
+However,
 
 In **2019**, "Kano"
 "Katsina"
 "Kaduna"
 "Borno"
 "Bauchi"
-"Jigawa" states were the states with votes for apc that were higher than pdp highest votes *649,612* in the country
+"Jigawa" states were the states won by apc above pdp highest votes *649,612* in the country that year
 
 
 | Command Prompt       | Result     |
@@ -205,7 +205,7 @@ In **2019**, "Kano"
 ![](apc_p2019_mc.png)  |![](apc_p2019_mr.png)
 
 
-*Hol up a sec, wouldnt be nice to know which state delivered more votes for apc that were HIGHER than pdp highest in 2015 and still delivered more votes for apc during the 2019 presidential election which were still HIGHER pdp highest in 2019? Yea, you guessed right.* Kano did 🙂. Let me show you
+*Hol up a sec, wouldnt it be nice to know which state delivered more votes for apc that were HIGHER than pdp highest in 2015 and 2019 respectively? Yea, you guessed right.* Kano did 🙂. Let me show you
 
 
 | Command Prompt        | Result     |
@@ -220,9 +220,9 @@ Okay enough for all the apc wins let us have a look at how pdp got more votes th
 
 &nbsp; 
  
->*How many states votes were gotten by PDP above APC **(2015: *1903999* , 2019: *1464768*)** HIGHEST votes in 2015 and 2019*
+>*How many states votes were WON by PDP above APC **(2015: *1903999* , 2019: *1464768*)** HIGHEST votes in 2015 and 2019*
 
-Apparently, there were no states votes by pdp above apc highest in 2015
+Apparently, there was no states votes by pdp above apc highest in 2015
 
 | Command Prompt       | Result     |
 |:----------------     |:--------------:|
@@ -231,7 +231,7 @@ Apparently, there were no states votes by pdp above apc highest in 2015
 
 Also
 
-Samething happened in 2019. There were no states votes by pdp above apc highest in 2019.
+Samething happened in 2019. There was no states votes by pdp above apc highest in 2019 as well.
 
 
 | Command Prompt       | Result     |
@@ -252,7 +252,7 @@ Okay that is that. Let me now show you the states WON by APC and the percentage 
 
 &nbsp; 
  
->*How many states were WON by APC in 2015 & 2019 Presidential Election and in what percentage?*
+>*How many states were WON by APC against pdp in 2015 & 2019 Presidential Election and in what percentage?*
 
 In **2015**, It was discovered that APC WON **21** states out of the 37 cumulative number of states during the presidential election with the HIGHEST percentage votes gap from BORNO state leading pdp in the state with *90%* votes and the least percentage votes gap was from ONDO state leading pdp with *9%* votes
 
@@ -270,7 +270,7 @@ Also, In **2019**, data has shown that APC WON **19** states out of the 37 cumul
 ![](apcp_p2019mc.png)   |![](apcp_p2019mr.png) 
 
 
-And thats not all, I went further to check for the states WON by APC in both years and by their percentage (i.e states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states were WON by APC in 2015 & 2019 presidential election in the country.
+And thats not all, I went further to check for the states WON by APC against pdp in both years and by their percentage (i.e states that apc won in 2015 and still won in 2019). However, It was discovered that **17** states out of the 37 cumulative number of states were WON by APC in 2015 & 2019 presidential election in the country.
 
 
 | Command Prompt          | Result     |
@@ -278,14 +278,14 @@ And thats not all, I went further to check for the states WON by APC in both yea
 ![](apcp_p2015.9mc.png)   |![](apcp_p2015.9mr.png) 
 
 
-What does this tell us? Apparently 17 states are loyal to APC in the country 🤔. Let us now have a look at states WON by PDP and the percentage difference compare to APC number of votes from the same states during the 2015 and 2019 Presidential election
+What does this tell us? Apparently 17 states are loyal to APC in the country 🤔. Let us now have a look at states WON by PDP against apc and at what percentage difference during the 2015 and 2019 Presidential election
 
 
 &nbsp; 
  
->*How many states were WON by PDP in 2015 & 2019 Presidential Election and in what percentage?*
+>*How many states were WON by PDP against apc in 2015 & 2019 Presidential Election and in what percentage?*
 
-In **2015**, The data has shown that PDP WON **16** states out of the 37 cumulative number of states during the presidential election leading apc with the HIGHEST percentage votes gap of *97%* from BAYELSA state while FCT (federal capital territory) gave PDP the least percentage votes gap leading apc with *4%* votes
+In **2015**, The data has shown that PDP WON **16** states out of the 37 cumulative number of states during the presidential election leading apc with the HIGHEST percentage votes gap of *97%* from BAYELSA state while FCT (federal capital territory) gave PDP the least percentage votes gap leading apc with *4%* votes 
 
 
 | Command Prompt        | Result     |
@@ -316,7 +316,7 @@ Apparently, The total number of states WON by PDP in 2015 and 2019 were **14** s
 >*What is the Total Votes gotten by APC and PDP from the geopolitical zones in the country during the 2015 & 2019 Presidential election?*
 
 
-Data Shown that APC **(2015: *15,424,921*, 2019: *15,191,847*)** total votes were gotten by APC which were more than PDP **(2015: *12,853,162*, 2019: *11,262,978*)** total votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 in 2019 by 233,074 votes compare to their total votes in 2015 while PDP votes also **fell** 🔽 by 1,590,184 votes in 2019 compare to their total votes in 2015.
+Data has Shown that APC **(2015: *15,424,921*, 2019: *15,191,847*)** total votes were more than PDP **(2015: *12,853,162*, 2019: *11,262,978*)** total votes in 2015 & 2019 respectively. However, APC votes **fell** 🔽 in 2019 by 233,074 votes compare to their total votes in 2015 while PDP votes also **fell** 🔽 by 1,590,184 votes in 2019 compare to their total votes in 2015.
 
 
 | Command Prompt    | Result     |
@@ -428,7 +428,7 @@ However, Lets have a look at how the states in the South-west voted the 2 partie
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-CENTRAL* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, North-central contibuted to the presidential election with 2,411,013 &	1,715,818 total votes from Apc and Pdp respectively While in **2019** the 2 parties got 2,465,599	& 2,023,769 total votes respectively from the region which shows there was 54,586 & 307,951 increase 🔼 from the 2 partis respectively in 2019 compare to 2015.
+In **2015**, North-central contibuted to the presidential election with 2,411,013 &	1,715,818 total votes from Apc and Pdp respectively While in **2019** the 2 parties got 2,465,599	& 2,023,769 total votes respectively from the region which shows there was 54,586 & 307,951 increase 🔼 from the 2 parties respectively in 2019 compare to 2015.
 
 
 | Command Prompt       | Result         |
@@ -482,7 +482,7 @@ However, Lets have a look at how the states in the North-east voted the 2 partie
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-EAST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, It appears Apc had lesser votes in the South-east compare toi Pdp with total votes of 198,248	& 2,464,906 respectively. Also, In  **2019** Apc still had lesser votes compare to pdp with 403,968	& 1,693,485 total votes respectively. The total votes received by Apc in the region was increased by 205,720 votes in 2019 while Pdp had a fall 🔽 of 771,421 total votes in 2019.
+In **2015**, It appears Apc had lesser votes in the South-east compare to Pdp with total votes of 198,248	& 2,464,906 respectively. Also, In  **2019** Apc still had lesser votes compare to pdp with 403,968	& 1,693,485 total votes respectively. The total votes received by Apc in the region was increased by 205,720 votes in 2019 while Pdp had a fall 🔽 of 771,421 total votes in 2019.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
