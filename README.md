@@ -81,7 +81,7 @@ In Nigeria, there are **36 states** and **1 Federal Capital Territory** present 
 |:----------------  |:--------------:|
 ![](s&gpcmd.png)   |![](s&gpr.png)
 
-Let us have a look at how APC & PDP were able to gather votes across the states and geopolitical zones in the country.
+Let us have a look at how APC & PDP were able to gather votes on the average across the states and geopolitical zones in the country.
 
  &nbsp; 
 >*What is the AVERAGE votes the 2 parties (Apc & Pdp) got in 2015 & 2019*
@@ -503,6 +503,17 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 ## Conclusions:
 
 >*Overall Findings shows that;*
+
+* There are 37 states (Including the Federal capital Territory) and 6 geopolitical zones present in the country during the 2015 and 2019 Presidential election.
+
+* On the average, in the respective years 2015 & 2019 APC had more votes than Pdp.
+
+* APC had 13 states votes that were above the AVERAGE they got in 2015 & 2019 at 416,890 and 410,590 respectively.
+
+* PDP had 9 states votes that were above the AVERAGE they got in 2015 & 2019 at 347,383 and 304,405 respectively.
+
+* 
+  
 
 
 
