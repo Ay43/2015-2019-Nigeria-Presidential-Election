@@ -392,7 +392,7 @@ Okay let's have a breakdown of how the 2 parties got their votes from the countr
  
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-WEST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 total votes respectively from the NORTH-WEST and 5,995,651 &	2,280,465 total votes respectively in **2019**. There is 1,119,548 fall 🔽 in the total votes gotten by Apc in 2019 compare to 2015 and an increase 🔼 of 940,756 total votes gotten by Pdp in 2019 compare to 2015 from the North-west region.
+Data Shows APC had the MOST votes in the NORTHWEST during the 2015 and 2019 presidential election. However, In **2015**, Apc and Pdp got 7,115,199 &	1,339,709 total votes respectively from the NORTH-WEST and 5,995,651 &	2,280,465 total votes respectively in **2019**. There is 1,119,548 fall 🔽 in the total votes gotten by Apc in 2019 compare to 2015 and an increase 🔼 of 940,756 total votes gotten by Pdp in 2019 compare to 2015 from the North-west region.
 
 
 | Command Prompt       | Result         |
@@ -405,12 +405,20 @@ However, Lets have a look at how the states in the North-west voted the 2 partie
 |:----------------      |:--------------:|
 ![](e2015_19_nwmc.png)  |![](e2015_19_nwmr.png)
 
+Since APC had the MOST votes in the NORTHWEST region, Lets have a look at how many states were WON by APC in the northwest over Pdp in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_nw_mc.png)      |![](apc_nw_mr.png)
+
+Apparently, APC WON all states present in the NORTHWEST region over Pdp in 2015 and 2019 respectively.
+
 
 &nbsp;
 
 >*How did the 2 parties (Apc & Pdp) influence votes in the *SOUTH-WEST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, The total votes gotten by Apc and Pdp from the South-west were 2,433,193 &	1,821,416 respectively with 2,036,450 &	1,776,670 respectively in **2019**. The data shows that there were total of 396,743 & 44,746 fall 🔽 respectively in the votes gotten by the 2 parties in the region in 2019 compare to 2015.
+Data Shows APC had the MOST votes in the SOUTHWEST during the 2015 and 2019 presidential election. However, In **2015**, The total votes gotten by Apc and Pdp from the South-west were 2,433,193 &	1,821,416 respectively with 2,036,450 &	1,776,670 respectively in **2019**. The data also shows that there were total of 396,743 & 44,746 fall 🔽 respectively in the votes gotten by the 2 parties in the region in 2019 compare to 2015.
 
 
 | Command Prompt       | Result         |
@@ -423,12 +431,20 @@ However, Lets have a look at how the states in the South-west voted the 2 partie
 |:----------------      |:--------------:|
 ![](e2015_19_swmc.png)  |![](e2015_19_swmr.png)
 
+Since APC had the MOST votes in the SOUTHWEST region, Lets have a look at how many states were WON by APC in the southwest over Pdp in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_sw_mc.png)      |![](apc_sw_mr.png)
+
+Apparently, APC WON in 3 states in 2015 and 2019 respectively over Pdp in the Souhtwest.
+
 
 &nbsp;
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-CENTRAL* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, North-central contibuted to the presidential election with 2,411,013 &	1,715,818 total votes from Apc and Pdp respectively While in **2019** the 2 parties got 2,465,599	& 2,023,769 total votes respectively from the region which shows there was 54,586 & 307,951 increase 🔼 from the 2 parties respectively in 2019 compare to 2015.
+It was also discovered APC had the MOST votes in the NORTHCENTRAL region during the 2015 and 2019 presidential election. However, In **2015**, North-central contibuted to the presidential election with 2,411,013 &	1,715,818 total votes from Apc and Pdp respectively While in **2019** the 2 parties got 2,465,599	& 2,023,769 total votes respectively from the region which shows there was 54,586 & 307,951 increase 🔼 from the 2 parties respectively in 2019 compare to 2015.
 
 
 | Command Prompt       | Result         |
@@ -441,13 +457,20 @@ However, Lets have a look at how the states in the North-central voted the 2 par
 |:----------------      |:--------------:|
 ![](e2015_19_ncmc.png)  |![](e2015_19_ncmr.png)
 
+Since APC had the MOST votes in the NORTHCENTRAL region, Lets have a look at how many states were WON by APC in the northcentral over Pdp in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_nc_mc.png)      |![](apc_nc_mr.png)
+
+Apparently, APC WON in 3 states in 2015 and 2019 respectively over Pdp in the Northcentral.
 
 
 &nbsp;
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-SOUTH* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, Apc and Pdp were able to gather the total votes of 418,590	& 4,714,725 respectively and in **2019** they both got 1,051,396	& 2,233,232 total votes respectively which is 632,806 increased 🔼 votes by Apc in 2019 compare to 2015 and a 2,481,493 fall 🔽 in Pdp total votes gotten in 2019 compare to 2015.
+PDP had the MOST votes in the SOUTHSOUTH region. However, In **2015**, Apc and Pdp were able to gather the total votes of 418,590	& 4,714,725 respectively and in **2019** they both got 1,051,396	& 2,233,232 total votes respectively which is 632,806 increased 🔼 votes by Apc in 2019 compare to 2015 and a 2,481,493 fall 🔽 in Pdp total votes gotten in 2019 compare to 2015.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
@@ -459,12 +482,20 @@ However, Lets have a look at how the states in the South-south voted the 2 parti
 |:----------------      |:--------------:|
 ![](e2015_19_ssmc.png)  |![](e2015_19_ssmr.png)
 
+Since PDP had the MOST votes in the SOUTHSOUTH region, Lets have a look at how many states were WON by PDP in the South-south over Apc in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_ss_mc.png)      |![](apc_ss_mr.png)
+
+Apparently, PDP WON all states present in the SOUTHSOUTH region over Apc in the 2015 and 2019 Presidential election respectively.
+
 
 &nbsp;
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *NORTH-EAST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, Apc and Pdp got 2,848,678	& 796,588 total votes respectively in the region and got 3,238,783	& 1,255,357 total votes respectively in **2019**. It appears the 2 parties had more votes in 2019 compare to 2015 with 390,105	& 458,769 increased 🔼 in total votes in 2019.
+APC had the MOST votes from the NORTHEAST region during the 2015 and 2019 presidential elction. However, In **2015**, Apc and Pdp got 2,848,678	& 796,588 total votes respectively in the region and got 3,238,783	& 1,255,357 total votes respectively in **2019**. It appears the 2 parties had more votes in 2019 compare to 2015 with 390,105	& 458,769 increased 🔼 in total votes in 2019.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
@@ -476,13 +507,20 @@ However, Lets have a look at how the states in the North-east voted the 2 partie
 |:----------------      |:--------------:|
 ![](e2015_19_nemc.png)  |![](e2015_19_nemr.png)
 
+Since APC had the MOST votes in the NORTHEAST, Lets have a look at how many states were WON by APC in the North-east over Pdp in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_ne_mc.png)      |![](apc_ne_mr.png)
+
+Apparently, APC WON in 4 states in the 2015 and 2019 presidential election respectively over Pdp in the North-east.
 
 
 &nbsp;
 
 >*How did the 2 parties (Apc & Pdp) influenced votes in the *SOUTH-EAST* during the 2015 and 2019 Presidential Election?*
 
-In **2015**, It appears Apc had lesser votes in the South-east compare to Pdp with total votes of 198,248	& 2,464,906 respectively. Also, In  **2019** Apc still had lesser votes compare to pdp with 403,968	& 1,693,485 total votes respectively. The total votes received by Apc in the region was increased by 205,720 votes in 2019 while Pdp had a fall 🔽 of 771,421 total votes in 2019.
+Dat shows PDP had the MOST votes from the SOUTH EAST during the 2015 and 2019 presidential election, However, In **2015**, It appears Apc had lesser votes in the South-east compare to Pdp with total votes of 198,248	& 2,464,906 respectively. Also, In  **2019** Apc still had lesser votes compare to pdp with 403,968	& 1,693,485 total votes respectively. The total votes received by Apc in the region was increased by 205,720 votes in 2019 while Pdp had a fall 🔽 of 771,421 total votes in 2019.
 
 | Command Prompt       | Result         |
 |:----------------     |:--------------:|
@@ -493,6 +531,14 @@ However, Lets have a look at how the states in the South-east voted the 2 partie
 | Command Prompt        | Result         |
 |:----------------      |:--------------:|
 ![](e2015_19_semc.png)  |![](e2015_19_semr.png)
+
+Since PDP had the MOST votes in the SOUTH EAST region, Lets have a look at how many states were WON by PDP in the South-east over Apc in 2015 and 2019 Altogether (i.e states won in 2015 and was still won in 2019)
+
+| Command Prompt        | Result         |
+|:----------------      |:--------------:|
+![](apc_se_mc.png)      |![](apc_se_mr.png)
+
+Apparently, PDP WON all states present in the SOUTH EAST region over Apc in the 2015 and 2019 Presidential election respectively.
 
 
 After carefully analysing the 2015 and 2019 presidential election data, Lets have a look at the conclusions and recommended solutions.
