@@ -508,25 +508,33 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * On the average, in the respective years 2015 & 2019 APC had more votes than Pdp.
 
-* APC had 13 states votes that were above the AVERAGE votes they got in 2015 & 2019 at 416,890 and 410,590 respectively.
+* APC had 13 states votes that were above the AVERAGE votes they got in 2015 & 2019 at 416,890 and 410,590 respectively While PDP had 9 states votes that were above the AVERAGE votes they got in 2015 & 2019 at 347,383 and 304,405 respectively.
 
-* PDP had 9 states votes that were above the AVERAGE votes they got in 2015 & 2019 at 347,383 and 304,405 respectively.
+* APC had 18 states votes that were above  Pdp AVERAGE votes in 2015 & 2019 at 347,383 and 304,405 respectively While PDP had 6 states votes that were above  Apc AVERAGE votes in 2015 & 2019 at 416,890 and 410,590 respectively.
 
-* APC had 18 states votes that were above  Pdp AVERAGE votes in 2015 & 2019 at 347,383 and 304,405 respectively.
-
-* PDP had 6 states votes that were above  Apc AVERAGE votes in 2015 & 2019 at 416,890 and 410,590 respectively.
-
-* APC had the HIGHEST votes in the 2015 & 2019 presidential election.
+* APC had the HIGHEST votes altogether in the 2015 & 2019 presidential election.
 
 * In 2015, One(1) state (Kano) votes for APC were above Pdp's HIGHEST votes in that year While Six(6) states("Kano" "Katsina" "Kaduna" "Borno" "Bauchi" "Jigawa") votes for APC were above Pdp's HIGHEST votes in 2019. However, Kano state is the only state with votes above Pdp's HIGHEST votes in 2015 & 2019 altogether.
 
 * PDP had no state votes that were above Apc HIGHEST votes in 2015 & 2019 respectively.
 
-* APC WON 21 and 19 states in 2015 & 2019 respectively. However, 17 states delivered For Apc in 2015 and still delievred in the 2019 presidential election.
+* APC WON 21 and 19 states in 2015 & 2019 respectively. However, 17 states delivered For Apc in 2015 and still delivered in the 2019 presidential election.
 
-* PDP WON 16 and 18 states in 2015 & 2019 respectively. However, 14 states delivered For Pdp in 2015 and still delievred in the 2019 presidential election.
+* PDP WON 16 and 18 states in 2015 & 2019 respectively. However, 14 states delivered For Pdp in 2015 and still delivered in the 2019 presidential election.
 
-* 
+* APC had the MOST votes from the geopolitical zones compare to Pdp in the 2015 and 2019 preseidential election respectively.
+
+* During the 2015 & 2019 Presidential Election, NORTHWEST provided APC with the MOST votes from the geopolitical zones in the country While SOUTH-SOUTH and NORTHWEST provided PDP with the MOST votes in 2015 & 2019 respectively.
+
+* In 2015 and 2019, APC WON from Four(4) geopolitical zones (Northwest, Northeast, Northcentral, Southwest) While PDP WON from Two(2) geopolitical zones (Southeast and Southsouth).
+
+* During the 2015 & 2019 Presidential election, Kano state
+
+
+
+
+
+
 
   
 
