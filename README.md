@@ -528,7 +528,9 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * In 2015 and 2019, APC WON from Four(4) geopolitical zones (Northwest, Northeast, Northcentral, Southwest) While PDP WON from Two(2) geopolitical zones (Southeast and Southsouth).
 
-* During the 2015 & 2019 Presidential election, Kano state
+ * In 2015 & 2019, the state with the MOST vote for APC from the NORTH-WEST is KANO While state with the MOST vote for PDP in the same region is KADUNA.
+
+ * 
 
 
 
