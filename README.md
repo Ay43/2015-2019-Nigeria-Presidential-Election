@@ -486,7 +486,7 @@ Since PDP had the MOST votes in the SOUTHSOUTH region, Lets have a look at how m
 
 | Command Prompt        | Result         |
 |:----------------      |:--------------:|
-![](apc_ss_mc.png)      |![](apc_ss_mr.png)
+![](pdp_ss_mc.png)      |![](pdp_ss_mr.png)
 
 Apparently, PDP WON all states present in the SOUTHSOUTH region over Apc in the 2015 and 2019 Presidential election respectively.
 
@@ -536,7 +536,7 @@ Since PDP had the MOST votes in the SOUTH EAST region, Lets have a look at how m
 
 | Command Prompt        | Result         |
 |:----------------      |:--------------:|
-![](apc_se_mc.png)      |![](apc_se_mr.png)
+![](pdp_se_mc.png)      |![](pdp_se_mr.png)
 
 Apparently, PDP WON all states present in the SOUTH EAST region over Apc in the 2015 and 2019 Presidential election respectively.
 
@@ -560,7 +560,7 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * APC had the HIGHEST votes altogether in the 2015 & 2019 presidential election.
 
-* In 2015, One(1) state (Kano) votes for APC were above Pdp's HIGHEST votes in that year While Six(6) states("Kano" "Katsina" "Kaduna" "Borno" "Bauchi" "Jigawa") votes for APC were above Pdp's HIGHEST votes in 2019. However, Kano state is the only state with votes above Pdp's HIGHEST votes in 2015 & 2019 altogether.
+* In 2015, One(1) state (Kano) votes for APC were above Pdp's HIGHEST votes in that year While Six(6) states("Kano" "Katsina" "Kaduna" "Borno" "Bauchi" "Jigawa") votes for APC were above Pdp's HIGHEST votes in 2019. However, Kano state is the only state with votes above Pdp's HIGHEST votes in 2015 & 2019 respectively.
 
 * PDP had no state votes that were above Apc HIGHEST votes in 2015 & 2019 respectively.
 
@@ -568,25 +568,21 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * PDP WON 16 and 18 states in 2015 & 2019 respectively. However, 14 states delivered For Pdp in 2015 and still delivered in the 2019 presidential election.
 
-* APC had the MOST votes from the geopolitical zones compare to Pdp in the 2015 and 2019 preseidential election respectively.
-
-* During the 2015 & 2019 Presidential Election, NORTHWEST provided APC with the MOST votes from the geopolitical zones in the country While SOUTH-SOUTH and NORTHWEST provided PDP with the MOST votes in 2015 & 2019 respectively.
+* APC had the MOST votes from the geopolitical zones compare to Pdp in the 2015 and 2019 presidential election respectively.
 
 * In 2015 and 2019, APC WON from Four(4) geopolitical zones (Northwest, Northeast, Northcentral, Southwest) While PDP WON from Two(2) geopolitical zones (Southeast and Southsouth).
 
- * APC WON From all states in the NORTHWEST
+ * APC WON From all states in the NORTHWEST in 2015 and 2019 respectively.
 
- * 
+ * APC WON From 3 states in the SOUTHWEST in 2015 and 2019 respectively during the presidential election.
 
+ * APC also WON From 3 states in the NORTHCENTRAL in 2015 and 2019 respectively.
 
+ * PDP WON From all states in the SOUTHSOUTH in 2015 and 2019 presidential election respectively.
 
+ * APC WON From 4 states in the NORTHEAST in 2015 and 2019 respectively.
 
-
-
-
-  
-
-
+ * PDP WON in all states present in the SOUTHEAST region in 2015 and 2019 presidential election respectively.
 
  
 ## Recommended Solutions
