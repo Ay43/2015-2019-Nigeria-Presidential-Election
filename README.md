@@ -560,7 +560,7 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * APC had the HIGHEST votes altogether in the 2015 & 2019 presidential election.
 
-* In 2015, One(1) state (Kano) votes for APC were above Pdp's HIGHEST votes in that year While Six(6) states("Kano" "Katsina" "Kaduna" "Borno" "Bauchi" "Jigawa") votes for APC were above Pdp's HIGHEST votes in 2019. However, Kano state is the only state with votes above Pdp's HIGHEST votes in 2015 & 2019 respectively.
+* In 2015, One(1) state (Kano) votes for APC was above Pdp's HIGHEST votes in that year While Six(6) states("Kano" "Katsina" "Kaduna" "Borno" "Bauchi" "Jigawa") votes for APC were above Pdp's HIGHEST votes in 2019. However, Kano state is the only state with votes above Pdp's HIGHEST votes in 2015 & 2019 respectively.
 
 * PDP had no state votes that were above Apc HIGHEST votes in 2015 & 2019 respectively.
 
