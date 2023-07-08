@@ -561,26 +561,17 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 * PDP had no state votes that were above Apc HIGHEST votes in 2015 & 2019 respectively.
 
-* APC WON 21 and 19 states in 2015 & 2019 respectively. However, 17 states delivered For Apc in 2015 and still delivered in the 2019 presidential election.
+* APC WON 21 and 19 states in 2015 & 2019 respectively. However, 17 states delivered votes For Apc in 2015 and still delivered votes in the 2019 presidential election for APC.
 
-* PDP WON 16 and 18 states in 2015 & 2019 respectively. However, 14 states delivered For Pdp in 2015 and still delivered in the 2019 presidential election.
+* PDP WON 16 and 18 states in 2015 & 2019 respectively. However, 14 states delivered votes For Pdp in 2015 and still delivered votes for PDP in the 2019 presidential election.
+
+* APC had the MOST leading votes percentage in 2015 & 2019 from BORNO state against PDP with 90% & 84% votes gap respectively While PDP had the MOST leading votes in 2015 & 2019 from BAYELSA & ANAMBRA state with 97% & 88.1% votes gap respectively. 
 
 * APC had the MOST votes from the geopolitical zones compare to Pdp in the 2015 and 2019 presidential election respectively.
 
 * In 2015 and 2019, APC WON from Four(4) geopolitical zones (Northwest, Northeast, Northcentral, Southwest) While PDP WON from Two(2) geopolitical zones (Southeast and Southsouth).
 
- * APC WON From all states in the NORTHWEST in 2015 and 2019 respectively.
-
- * APC WON From 3 states in the SOUTHWEST in 2015 and 2019 respectively during the presidential election.
-
- * APC also WON From 3 states in the NORTHCENTRAL in 2015 and 2019 respectively.
-
- * PDP WON From all states in the SOUTHSOUTH in 2015 and 2019 presidential election respectively.
-
- * APC WON From 4 states in the NORTHEAST in 2015 and 2019 respectively.
-
- * PDP WON in all states present in the SOUTHEAST region in 2015 and 2019 presidential election respectively.
-
+ * 
  
 ## Recommended Solutions
 
