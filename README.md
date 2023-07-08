@@ -8,7 +8,7 @@
 
 ## Introduction:
 
-This is a presidential election analysis report that occured in Nigeria between the year 2015 & 2019. In this report, we would be focusing on the top or major parties (APC & PDP) involved in the election and a breakdown of how they got their respective votes across the states and geopolitical zones in the country.
+This is a presidential election analysis report that occured in Nigeria between the year 2015 & 2019. In this report, we would be focusing on the top or major parties (APC & PDP) on how they influenced votes in the country durinng the 2015 and 2019 presidential election and a breakdown of how they got their respective votes across the states and geopolitical zones in the country.
  
  
 In this project, would be covering the following;
@@ -27,9 +27,7 @@ In this project, would be covering the following;
 
 ## Objectives:
 
-The Objective of this analysis is to help answer some questions mentioned in the **findings** section of this project, which is to help give insight or  overview on how APC and PDP were able to gathered votes across all states and geopolitical zones at the 2015 and 2019 Presidential Election in Nigeria. 
-
-Also, the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 presidential election in the country.
+The Objective of this analysis is to have a clear understanding on how APC & PDP influenced votes across the states and geopolitical zones in the country during the 2015 & 2019 presidential election and how the Findings from this report would provide us with a data driven prediction on what is expected to play out in the 2023 presidential election in the country.
 
 You can skip all other process and jump right in to the **Findings** by clicking  [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#findings) 
  
@@ -100,12 +98,11 @@ Let us have a look at how the 2 parties were individually affected by the averag
 
  &nbsp;
 
->*How many states votes were won by APC above its average in 2015 & 2019 **(2015: *416890*, 2019: *410590*)** ?*
+>*How many states votes were won by APC above its average votes in 2015 & 2019 **(2015: *416890*, 2019: *410590*)** ?*
 
 
 
-It appears that APC had **13** states out of the 37 cumulative number of states that were above the AVERAGE votes they got in 2015 and 2019.
-
+It appears **13** states vote for APC were above APC's AVERAGE votes in 2015 and 2019. 
 
 | Command Prompt    | Result     |
 |:----------------  |:--------------:|
@@ -119,7 +116,7 @@ what of Pdp votes above its average?
 
 
 
-It also appears that PDP had **9** states out of the 37 cumulative number of states votes that were above the AVERAGE votes they got in 2015 and 2019.
+PDP had **9** states votes that were above its AVERAGE in 2015 and 2019.
 
 
 | Command Prompt    | Result     |
