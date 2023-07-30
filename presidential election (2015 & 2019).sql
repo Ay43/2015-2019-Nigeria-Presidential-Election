@@ -2,6 +2,7 @@
    two(2) different tables namely 2015 presidential election and
    2019 presidential election data */
 
+
 --Viewing the table information on the 2015 election data
 SELECT column_name, data_type  
     FROM information_schema.columns
@@ -44,17 +45,93 @@ SELECT COUNT(DISTINCT(e2015.state)) "2015 State",
     JOIN election_2019 e2019 
     ON e2015.state = e2019.state;
     
-    
---Viewing the top 10 states with the highest number of registered voters in 2015 & 2019
-SELECT e2015.state, 
-                           e2015.registered_voters "2015",
-                           e2019.registered_voters "2019"                         
-    FROM election_2015 e2015
-    JOIN election_2019 e2019
-    ON e2015.state = e2019.state
-    ORDER BY 3 DESC
-    limit 10;          
 
+--Viewing 2015 TOTAL registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+SELECT SUM(registered_voters) Total_registered_voters,
+       SUM(accredited_voters) Total_accredited_voters,
+       SUM(votes_cast) Total_votes_cast,
+       SUM(valid_votes) Total_valid_votes,
+       SUM(rejected_votes) Total_rejected_votes
+    FROM election_2015 
+
+
+--Viewing 2015 HIGHEST number of registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+SELECT MAX(registered_voters) Highest_no_of_registered_voters,
+       MAX(accredited_voters) Highest_no_of_accredited_voters,
+       MAX(votes_cast) Highest_no_of_votes_cast,
+       MAX(valid_votes) Highest_no_of_valid_votes,
+       MAX(rejected_votes) Highest_no_of_rejected_votes
+    FROM election_2015 
+    
+
+--Viewing 2015 HIGHEST number of registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+--By States
+WITH category AS ((SELECT state, registered_voters values FROM election_2015 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, accredited_voters FROM election_2015 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, votes_cast FROM election_2015 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, valid_votes FROM election_2015 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, rejected_votes FROM election_2015 ORDER BY 2 DESC LIMIT 1))
+select * from category;
+
+
+--Viewing 2015 TOTAL registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+--By geopolitical zones
+SELECT geopolitical_zone, SUM(registered_voters) registered_voters,
+       SUM(accredited_voters) accredited_voters,
+       SUM(votes_cast) votes_cast,
+       SUM(valid_votes) valid_votes,
+       SUM(rejected_votes) rejected_votes
+    FROM election_2015
+    GROUP BY 1;
+
+
+--Viewing 2019 TOTAL registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+SELECT SUM(registered_voters) Total_registered_voters,
+       SUM(accredited_voters) Total_accredited_voters,
+       SUM(votes_cast) Total_votes_cast,
+       SUM(valid_votes) Total_valid_votes,
+       SUM(rejected_votes) Total_rejected_votes
+    FROM election_2019 
+
+
+--Viewing 2019 HIGHEST number of registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+SELECT MAX(registered_voters) Highest_no_of_registered_voters,
+       MAX(accredited_voters) Highest_no_of_accredited_voters,
+       MAX(votes_cast) Highest_no_of_votes_cast,
+       MAX(valid_votes) Highest_no_of_valid_votes,
+       MAX(rejected_votes) Highest_no_of_rejected_votes
+    FROM election_2019 
+    
+
+--Viewing 2015 HIGHEST number of registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+--By States
+WITH category AS ((SELECT state, registered_voters values FROM election_2019 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, accredited_voters FROM election_2019 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, votes_cast FROM election_2019 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, valid_votes FROM election_2019 ORDER BY 2 DESC LIMIT 1)
+UNION ALL
+(SELECT state, rejected_votes FROM election_2019 ORDER BY 2 DESC LIMIT 1))
+select * from category;
+
+
+    
+--Viewing 2019 TOTAL registered_voters, accredited_voters, votes_cast, valid_votes and rejected_votes
+--By geopolitical zones
+SELECT geopolitical_zone, SUM(registered_voters) registered_voters,
+       SUM(accredited_voters) accredited_voters,
+       SUM(votes_cast) votes_cast,
+       SUM(valid_votes) valid_votes,
+       SUM(rejected_votes) rejected_votes
+    FROM election_2019
+    GROUP BY 1;
+    
 
 --Viewing the Total number of registered voters in 2015 & 2019 by geopolitical zones
 SELECT e2015.geopolitical_zone, SUM(e2015.registered_voters) "2015",
@@ -158,6 +235,56 @@ SELECT ROUND(AVG(e2015.apc_votes)) "apc_2015",
     JOIN election_2019 e2019
     ON e2015.state = e2019.state;
 
+
+
+--Viewing the states WON by APC above the AVERAGE votes they got in 2015 and 2019 
+WITH j AS
+        (SELECT e2015.state state, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
+        FROM election_2015 e2015
+        JOIN election_2019 e2019
+        ON e2015.state = e2019.state)
+    SELECT j.state, j.e2015apc, j.e2019apc FROM j 
+    WHERE j.e2015apc >= (SELECT AVG(apc_votes) FROM election_2015)  
+    AND j.e2019apc >= (SELECT AVG(apc_votes) FROM election_2019)
+    ORDER BY j.e2015apc DESC, j.e2019apc DESC;
+
+
+--Viewing the states WON by PDP above the AVERAGE votes they got in 2015 and 2019 
+WITH j AS
+        (SELECT e2015.state state, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
+        FROM election_2015 e2015
+        JOIN election_2019 e2019
+        ON e2015.state = e2019.state)
+    SELECT j.state, j.e2015pdp, j.e2019pdp FROM j 
+    WHERE j.e2015pdp >= (SELECT AVG(pdp_votes) FROM election_2015)  
+    AND j.e2019pdp >= (SELECT AVG(pdp_votes) FROM election_2019)
+    ORDER BY j.e2015pdp DESC, j.e2019pdp DESC;
+    
+
+--Viewing the states WON by APC above PDP average votes in 2015 and 2019 
+WITH j AS
+        (SELECT e2015.state state, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
+        FROM election_2015 e2015
+        JOIN election_2019 e2019
+        ON e2015.state = e2019.state)
+    SELECT j.state, j.e2015apc, j.e2019apc FROM j 
+    WHERE j.e2015apc >= (SELECT AVG(pdp_votes) FROM election_2015)  
+    AND j.e2019apc >= (SELECT AVG(pdp_votes) FROM election_2019)
+    ORDER BY j.e2015apc DESC, j.e2019apc DESC;
+
+
+--Viewing the states WON by PDP above APC average votes in 2015 and 2019 
+WITH j AS
+        (SELECT e2015.state state, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
+        FROM election_2015 e2015
+        JOIN election_2019 e2019
+        ON e2015.state = e2019.state)
+    SELECT j.state, j.e2015pdp, j.e2019pdp FROM j 
+    WHERE j.e2015pdp >= (SELECT AVG(apc_votes) FROM election_2015)  
+    AND j.e2019pdp >= (SELECT AVG(apc_votes) FROM election_2019)
+    ORDER BY j.e2015pdp DESC, j.e2019pdp DESC;
+
+
 --Viewing the HIGHEST votes gathered by APC and PDP in 2015 and 2019 Presidential Election
 SELECT MAX(e2015.apc_votes) "apc_2015", 
        MAX(e2015.pdp_votes) "pdp_2015",
@@ -167,49 +294,6 @@ SELECT MAX(e2015.apc_votes) "apc_2015",
     JOIN election_2019 e2019
     ON e2015.state = e2019.state;
 
-
---Viewing the states WON by APC above the AVERAGE votes they got in 2015 and 2019 
-WITH j AS
-        (SELECT e2015.state e2015s, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
-        FROM election_2015 e2015
-        JOIN election_2019 e2019
-        ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015apc, j.e2019apc FROM j WHERE j.e2015apc >= (SELECT AVG(apc_votes) FROM election_2015)  
-    AND j.e2019apc >= (SELECT AVG(apc_votes) FROM election_2019)
-    ORDER BY j.e2015apc DESC, j.e2019apc DESC;
-
-
---Viewing the states WON by PDP above the AVERAGE votes they got in 2015 and 2019 
-WITH j AS
-        (SELECT e2015.state e2015s, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
-        FROM election_2015 e2015
-        JOIN election_2019 e2019
-        ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015pdp, j.e2019pdp FROM j WHERE j.e2015pdp >= (SELECT AVG(pdp_votes) FROM election_2015)  
-    AND j.e2019pdp >= (SELECT AVG(pdp_votes) FROM election_2019)
-    ORDER BY j.e2015pdp DESC, j.e2019pdp DESC;
-    
-
---Viewing the states WON by APC above PDP average votes in 2015 and 2019 
-WITH j AS
-        (SELECT e2015.state e2015s, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
-        FROM election_2015 e2015
-        JOIN election_2019 e2019
-        ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015apc, j.e2019apc FROM j WHERE j.e2015apc >= (SELECT AVG(pdp_votes) FROM election_2015)  
-    AND j.e2019apc >= (SELECT AVG(pdp_votes) FROM election_2019)
-    ORDER BY j.e2015apc DESC, j.e2019apc DESC;
-
-
---Viewing the states WON by PDP above APC average votes in 2015 and 2019 
-WITH j AS
-        (SELECT e2015.state e2015s, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
-        FROM election_2015 e2015
-        JOIN election_2019 e2019
-        ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015pdp, j.e2019pdp FROM j WHERE j.e2015pdp >= (SELECT AVG(apc_votes) FROM election_2015)  
-    AND j.e2019pdp >= (SELECT AVG(apc_votes) FROM election_2019)
-    ORDER BY j.e2015pdp DESC, j.e2019pdp DESC;
 
 
 --Viewing the states WON by APC above PDP HIGHEST votes in 2015 and 2019  
@@ -228,11 +312,12 @@ SELECT state , apc_votes
 
 -- 2015 & 2019 Combined
  WITH j AS
-        (SELECT e2015.state e2015s, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
+        (SELECT e2015.state state, e2015.apc_votes e2015apc, e2019.apc_votes e2019apc 
         FROM election_2015 e2015
         JOIN election_2019 e2019
         ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015apc, j.e2019apc FROM j WHERE j.e2015apc >= (SELECT MAX(pdp_votes) FROM election_2015)  
+    SELECT j.state, j.e2015apc, j.e2019apc FROM j 
+    WHERE j.e2015apc >= (SELECT MAX(pdp_votes) FROM election_2015)  
     AND j.e2019apc >= (SELECT MAX(pdp_votes) FROM election_2019)
     ORDER BY j.e2015apc DESC, j.e2019apc DESC;
         
@@ -253,11 +338,12 @@ SELECT state , pdp_votes
 
 -- 2015 & 2019 Combined
   WITH j AS
-        (SELECT e2015.state e2015s, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
+        (SELECT e2015.state state, e2015.pdp_votes e2015pdp, e2019.pdp_votes e2019pdp 
         FROM election_2015 e2015
         JOIN election_2019 e2019
         ON e2015.state = e2019.state)
-    SELECT j.e2015s, j.e2015pdp, j.e2019pdp FROM j WHERE j.e2015pdp >= (SELECT MAX(apc_votes) FROM election_2015)  
+    SELECT j.state, j.e2015pdp, j.e2019pdp FROM j 
+    WHERE j.e2015pdp >= (SELECT MAX(apc_votes) FROM election_2015)  
     AND j.e2019pdp >= (SELECT MAX(apc_votes) FROM election_2019)
     ORDER BY j.e2015pdp DESC, j.e2019pdp DESC;
     
@@ -270,7 +356,7 @@ SELECT state, apc_votes, pdp_votes,
     FROM election_2015
     WHERE apc_votes >= pdp_votes
     GROUP BY 1,2,3
-    ORDER BY 2 DESC;   
+    ORDER BY 4 DESC;   
     
 --2019 %
 SELECT state, apc_votes, pdp_votes, 
@@ -278,23 +364,23 @@ SELECT state, apc_votes, pdp_votes,
     FROM election_2019
     WHERE apc_votes >= pdp_votes
     GROUP BY 1,2,3
-    ORDER BY 2 DESC;    
+    ORDER BY 4 DESC;    
 
--- 2015% and 2019% Merged
+-- 2015% and 2019% Combined
 SELECT * FROM
     (SELECT state, apc_votes, pdp_votes, 
               CONCAT(ROUND(((apc_votes - pdp_votes) / AVG(apc_votes + pdp_votes)) *100), '%') "2015 %"
     FROM election_2015
     WHERE apc_votes >= pdp_votes
     GROUP BY 1,2,3
-    ORDER BY 2 DESC) apc2015
+    ORDER BY 4 DESC) apc2015
      JOIN     
     (SELECT state, apc_votes, pdp_votes, 
               CONCAT(ROUND(((apc_votes - pdp_votes) / AVG(apc_votes + pdp_votes)) *100), '%') "2019 %"
     FROM election_2019
     WHERE apc_votes >= pdp_votes
     GROUP BY 1,2,3
-    ORDER BY 2 DESC) apc2019
+    ORDER BY 4 DESC) apc2019
     ON apc2015.state=apc2019.state;
     
     
@@ -306,15 +392,15 @@ SELECT state, pdp_votes, apc_votes,
     FROM election_2015
     WHERE pdp_votes >= apc_votes  
     GROUP BY 1,2,3
-    ORDER BY 2 DESC;   
+    ORDER BY 4 DESC;   
     
 --2019 %
 SELECT state, pdp_votes, apc_votes,  
-              CONCAT(ROUND(((pdp_votes - apc_votes) / AVG(pdp_votes + apc_votes)) *100), '%') "2019 %"
+              CONCAT(ROUND(((pdp_votes - apc_votes) / AVG(pdp_votes + apc_votes)) *100,1), '%') "2019 %"
     FROM election_2019
     WHERE pdp_votes >= apc_votes  
     GROUP BY 1,2,3
-    ORDER BY 2 DESC;    
+    ORDER BY 4 DESC;    
 
 -- 2015% and 2019% Merged
 SELECT * FROM
@@ -323,7 +409,7 @@ SELECT * FROM
     FROM election_2015
     WHERE pdp_votes >= apc_votes  
     GROUP BY 1,2,3
-    ORDER BY 2 DESC) pdp2015  
+    ORDER BY 4 DESC) pdp2015  
      JOIN     
     (SELECT state, pdp_votes, apc_votes,  
               CONCAT(ROUND(((pdp_votes - apc_votes) / AVG(pdp_votes + apc_votes)) *100), '%') "2019 %"
@@ -333,7 +419,20 @@ SELECT * FROM
     ORDER BY 2 DESC) pdp2019
     ON pdp2015.state = pdp2019.state;        
     
-    
+
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election across the geopolitical_zone   
+SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
+       SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone  
+    IN ('North West', 'South West', 'North Central', 'South South', 'North East', 'South East')
+    ;
+
     
 --Viewing how APC & PDP were voted for across geopolitical zones in 2015 and 2019 Presidential Election
 SELECT e2015.geopolitical_zone,
@@ -351,86 +450,55 @@ SELECT e2015.geopolitical_zone,
 --2015 %
 
 WITH j AS
-        (SELECT e2015.geopolitical_zone e2015gz, SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
+        (SELECT e2015.geopolitical_zone geopolitical_zone, 
+         SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
         FROM election_2015 e2015
          WHERE (SELECT  SUM(e2015.apc_votes) FROM election_2015 e2015) 
                               >= (SELECT SUM(e2015.pdp_votes) 
                                   FROM election_2015 e2015)                             
         GROUP BY 1
         ORDER BY 2 DESC)
-    SELECT j.e2015gz, j.e2015apc, j.e2015pdp,
-           CONCAT(ROUND(((j.e2015apc - j.e2015pdp) / AVG(j.e2015apc + j.e2015pdp)) *100), '%') "e2015%"
-           FROM j WHERE j.e2015apc >= j.e2015pdp
-           GROUP BY 1, 2, 3
-        ORDER BY 2 DESC;
+    SELECT j.geopolitical_zone, j.e2015apc, j.e2015pdp,
+    CONCAT(ROUND(((j.e2015apc - j.e2015pdp) / AVG(j.e2015apc + j.e2015pdp)) *100), '%') "e2015%"
+    FROM j WHERE j.e2015apc >= j.e2015pdp
+    GROUP BY 1, 2, 3
+    ORDER BY 4 DESC;
    
    
 --2019 %
 
  WITH j AS
-        (SELECT e2019.geopolitical_zone e2019gz, SUM(e2019.apc_votes) e2019apc, SUM(e2019.pdp_votes) e2019pdp 
+        (SELECT e2019.geopolitical_zone geopolitical_zone, 
+         SUM(e2019.apc_votes) e2019apc, SUM(e2019.pdp_votes) e2019pdp 
         FROM election_2019 e2019
          WHERE (SELECT  SUM(e2019.apc_votes) FROM election_2019 e2019) 
                               >= (SELECT SUM(e2019.pdp_votes) 
                                   FROM election_2019 e2019)                             
         GROUP BY 1
         ORDER BY 2 DESC)
-    SELECT j.e2019gz, j.e2019apc, j.e2019pdp,
-           CONCAT(ROUND(((j.e2019apc - j.e2019pdp) / AVG(j.e2019apc + j.e2019pdp)) *100), '%') "e2019%"
-           FROM j WHERE j.e2019apc >= j.e2019pdp
-           GROUP BY 1, 2, 3
-        ORDER BY 2 DESC;  
-
--- 2015 & 2019 combined
-
-SELECT * FROM
-        (WITH j AS
-        (SELECT e2015.geopolitical_zone e2015gz, SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
-        FROM election_2015 e2015
-         WHERE (SELECT  SUM(e2015.apc_votes) FROM election_2015 e2015) 
-                              >= (SELECT SUM(e2015.pdp_votes) 
-                                  FROM election_2015 e2015)                             
-                GROUP BY 1
-                ORDER BY 2 DESC)
-        SELECT j.e2015gz, j.e2015apc, j.e2015pdp,
-        CONCAT(ROUND(((j.e2015apc - j.e2015pdp) / AVG(j.e2015apc + j.e2015pdp)) *100), '%') "e2015%"
-        FROM j WHERE j.e2015apc >= j.e2015pdp
-        GROUP BY 1, 2, 3
-        ORDER BY 2 DESC) e_2015
-JOIN 
-        (WITH j AS
-        (SELECT e2019.geopolitical_zone e2019gz, SUM(e2019.apc_votes) e2019apc, SUM(e2019.pdp_votes) e2019pdp 
-         FROM election_2019 e2019
-         WHERE (SELECT  SUM(e2019.apc_votes) FROM election_2019 e2019) 
-                              >= (SELECT SUM(e2019.pdp_votes) 
-                                  FROM election_2019 e2019)                             
-                GROUP BY 1
-                ORDER BY 2 DESC)
-        SELECT j.e2019gz, j.e2019apc, j.e2019pdp,
-        CONCAT(ROUND(((j.e2019apc - j.e2019pdp) / AVG(j.e2019apc + j.e2019pdp)) *100), '%') "e2019%"
-        FROM j WHERE j.e2019apc >= j.e2019pdp
-        GROUP BY 1, 2, 3
-        ORDER BY 2 DESC) e_2019
-ON e_2015.e2015gz = e_2019.e2019gz;
-        
+    SELECT j.geopolitical_zone, j.e2019apc, j.e2019pdp,
+    CONCAT(ROUND(((j.e2019apc - j.e2019pdp) / AVG(j.e2019apc + j.e2019pdp)) *100), '%') "e2019%"
+    FROM j WHERE j.e2019apc >= j.e2019pdp
+    GROUP BY 1, 2, 3
+    ORDER BY 4 DESC;          
         
 
 --Viewing the percentage votes of geopolitical zones WON by PDP compare to APC in 2015 and 2019 Presidential Election
 
 --2015 %
        WITH j AS
-        (SELECT e2015.geopolitical_zone e2015gz, SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
+        (SELECT e2015.geopolitical_zone geopolitical_zone, SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
         FROM election_2015 e2015
          WHERE (SELECT  SUM(e2015.apc_votes) FROM election_2015 e2015) 
                               >= (SELECT SUM(e2015.pdp_votes) 
                                   FROM election_2015 e2015)                             
         GROUP BY 1
         ORDER BY 2 DESC)
-        SELECT j.e2015gz, j.e2015pdp, j.e2015apc, 
+        SELECT j.geopolitical_zone, j.e2015pdp, j.e2015apc, 
            CONCAT(ROUND(((j.e2015pdp - j.e2015apc) / AVG(j.e2015pdp + j.e2015apc)) *100), '%') "e2015%"
            FROM j WHERE j.e2015pdp >= j.e2015apc
            GROUP BY 1, 2, 3
-        ORDER BY 2 DESC;
+        ORDER BY 4 DESC;
    
 --2019 %
 
@@ -448,43 +516,13 @@ ON e_2015.e2015gz = e_2019.e2019gz;
            GROUP BY 1, 2, 3
         ORDER BY 2 DESC;   
 
--- 2015 & 2019 merged
 
-SELECT * FROM
-        (WITH j AS
-        (SELECT e2015.geopolitical_zone e2015gz, SUM(e2015.apc_votes) e2015apc, SUM(e2015.pdp_votes) e2015pdp 
-        FROM election_2015 e2015
-         WHERE (SELECT  SUM(e2015.apc_votes) FROM election_2015 e2015) 
-                              >= (SELECT SUM(e2015.pdp_votes) 
-                                  FROM election_2015 e2015)                             
-                GROUP BY 1
-                ORDER BY 2 DESC)
-        SELECT j.e2015gz, j.e2015pdp, j.e2015apc, 
-        CONCAT(ROUND(((j.e2015pdp - j.e2015apc) / AVG(j.e2015pdp + j.e2015apc)) *100), '%') "e2015%"
-        FROM j WHERE j.e2015pdp >= j.e2015apc
-        GROUP BY 1, 2, 3
-        ORDER BY 2 DESC) e_2015
-JOIN 
-        (WITH j AS
-        (SELECT e2019.geopolitical_zone e2019gz, SUM(e2019.apc_votes) e2019apc, SUM(e2019.pdp_votes) e2019pdp 
-        FROM election_2019 e2019
-         WHERE (SELECT  SUM(e2019.apc_votes) FROM election_2019 e2019) 
-                              >= (SELECT SUM(e2019.pdp_votes) 
-                                  FROM election_2019 e2019)                             
-                GROUP BY 1
-                ORDER BY 2 DESC)
-        SELECT j.e2019gz, j.e2019pdp, j.e2019apc, 
-        CONCAT(ROUND(((j.e2019pdp - j.e2019apc) / AVG(j.e2019pdp + j.e2019apc)) *100), '%') "e2019%"
-        FROM j WHERE j.e2019pdp >= j.e2019apc
-        GROUP BY 1, 2, 3
-        ORDER BY 2 DESC) e_2019
-ON e_2015.e2015gz = e_2019.e2019gz;  
-    
 
 
 /* Breakdown of how VOTES were gathered by the 2 parties across the geopolitical_zone */    
 
---Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election across the geopolitical_zone   
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election from the NORTH WEST   
 SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
        SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
        SUM(e2019.apc_votes) "2019 Apc Total_votes",
@@ -492,24 +530,9 @@ SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes",
     FROM election_2015 e2015
     JOIN election_2019 e2019
     ON e2015.state = e2019.state
-    WHERE e2015.geopolitical_zone  
-    IN ('North West', 'South West', 'North Central', 'South South', 'North East', 'South East')::bool
-    ;
-
-
---Viewing the Average votes gathered by APC and PDP in the 2015 & 2019 Presidential Election across the geopolitical_zone   
-SELECT AVG(e2015.apc_votes) "2015 Apc Total_votes", 
-       AVG(e2015.pdp_votes) "2015 Pdp Total_votes",
-       AVG(e2019.apc_votes) "2019 Apc Total_votes",
-       AVG(e2019.pdp_votes) "2019 Pdp Total_votes"
-    FROM election_2015 e2015
-    JOIN election_2019 e2019
-    ON e2015.state=e2019.state
-    WHERE e2015.geopolitical_zone 
-    IN ('North West', 'South West', 'North Central', 'South South', 'North East', 'South East')
-    ;
-  
-
+    WHERE e2015.geopolitical_zone = 'North West';
+    
+    
 --Viewing how the states in the North West voted APC & PDP during the 2015 and 2019 Presidential Election
 SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
                     e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
@@ -520,6 +543,144 @@ SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
     AND   e2019.geopolitical_zone = 'North West' 
     ORDER BY 2 DESC, 3 DESC;
     
+    
+--Viewing states WON by APC in the North West over Pdp in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
+                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'North West' 
+    AND   e2019.geopolitical_zone = 'North West' 
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.apc_votes > e2015.pdp_votes
+            AND e2019.apc_votes > e2019.pdp_votes
+    ORDER BY 2 DESC, 3 DESC;
+
+    
+    
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election in the SOUTH WEST   
+SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
+       SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone = 'South West';   
+    
+    
+    
+--Viewing how the states in the South West voted APC & PDP during the 2015 and 2019 Presidential Election
+SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
+                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'South West' 
+    AND   e2019.geopolitical_zone = 'South West'
+    ORDER BY 2 DESC, 3 DESC;        
+    
+       
+--Viewing states WON by APC in the South West over Pdp in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
+                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'South West' 
+    AND   e2019.geopolitical_zone = 'South West'
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.apc_votes > e2015.pdp_votes
+            AND e2019.apc_votes > e2019.pdp_votes
+    ORDER BY 2 DESC, 3 DESC;    
+
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election in the NORTH CENTRAL   
+SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
+       SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone = 'North Central';
+        
+    
+--Viewing how the states in the North Central voted APC & PDP during the 2015 and 2019 Presidential Election
+SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
+                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'North Central' 
+    AND   e2019.geopolitical_zone = 'North Central' 
+    ORDER BY 2 DESC, 3 DESC; 
+
+
+--Viewing states WON by APC in the North Central over PDP in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
+                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'North Central' 
+    AND   e2019.geopolitical_zone = 'North Central'
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.apc_votes > e2015.pdp_votes
+            AND e2019.apc_votes > e2019.pdp_votes
+    ORDER BY 2 DESC, 3 DESC;     
+    
+
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election in the SOUTH SOUTH   
+SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
+       SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone = 'South South';
+    
+    
+--Viewing how the states in the South South voted APC & PDP during the 2015 and 2019 Presidential Election
+SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
+                    e2019.pdp_votes "Pdp 2019", e2019.apc_votes "Apc 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'South South' 
+    AND   e2019.geopolitical_zone = 'South South' 
+    ORDER BY 2 DESC, 3 DESC;
+    
+
+--Viewing states WON by PDP in the South South over Apc in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
+                    e2019.pdp_votes "Pdp 2019", e2019.apc_votes "Apc 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'South South' 
+    AND   e2019.geopolitical_zone = 'South South'
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.pdp_votes > e2015.apc_votes 
+            AND e2019.pdp_votes > e2019.apc_votes
+    ORDER BY 2 DESC, 3 DESC;
+
+
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election in the NORTH EAST   
+SELECT SUM(e2015.apc_votes) "2015 Apc Total_votes", 
+       SUM(e2015.pdp_votes) "2015 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone = 'North East';    
+
+
     
 --Viewing how the states in the North East voted APC & PDP during the 2015 and 2019 Presidential Election
 SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
@@ -532,42 +693,34 @@ SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
     ORDER BY 2 DESC, 3 DESC;
     
     
---Viewing how the states in the South West voted APC & PDP during the 2015 and 2019 Presidential Election
+--Viewing states WON by APC in the North East over Pdp in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
 SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
                     e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
     FROM election_2015 e2015
     JOIN election_2019 e2019
     ON e2015.state=e2019.state
-    WHERE e2015.geopolitical_zone = 'South West' 
-    AND   e2019.geopolitical_zone = 'South West' 
-    ORDER BY 2 DESC, 3 DESC;
-    
-    
---Viewing how the states in the North Central voted APC & PDP during the 2015 and 2019 Presidential Election
-SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
-                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+    WHERE e2015.geopolitical_zone = 'North East' 
+    AND   e2019.geopolitical_zone = 'North East' 
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.apc_votes > e2015.pdp_votes
+            AND e2019.apc_votes > e2019.pdp_votes
+    ORDER BY 2 DESC, 3 DESC;    
+
+
+--Viewing the Total votes gathered by APC and PDP in the 2015 & 2019 Presidential Election in the SOUTH EAST   
+SELECT SUM(e2015.pdp_votes) "2015 Pdp Total_votes", 
+       SUM(e2015.apc_votes) "2015 Apc Total_votes",
+       SUM(e2019.pdp_votes) "2019 Pdp Total_votes",
+       SUM(e2019.apc_votes) "2019 Apc Total_votes"
     FROM election_2015 e2015
     JOIN election_2019 e2019
-    ON e2015.state=e2019.state
-    WHERE e2015.geopolitical_zone = 'North Central' 
-    AND   e2019.geopolitical_zone = 'North Central' 
-    ORDER BY 2 DESC, 3 DESC;
-    
-    
---Viewing how the states in the South South voted APC & PDP during the 2015 and 2019 Presidential Election
-SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
-                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
-    FROM election_2015 e2015
-    JOIN election_2019 e2019
-    ON e2015.state=e2019.state
-    WHERE e2015.geopolitical_zone = 'South South' 
-    AND   e2019.geopolitical_zone = 'South South' 
-    ORDER BY 2 DESC, 3 DESC;
+    ON e2015.state = e2019.state
+    WHERE e2015.geopolitical_zone = 'South East';               
     
     
 --Viewing how the states in the South East voted APC & PDP during the 2015 and 2019 Presidential Election
-SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
-                    e2019.apc_votes "Apc 2019",e2019.pdp_votes "Pdp 2019"
+SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
+                    e2019.pdp_votes "Pdp 2019", e2019.apc_votes "Apc 2019"
     FROM election_2015 e2015
     JOIN election_2019 e2019
     ON e2015.state=e2019.state
@@ -575,5 +728,18 @@ SELECT e2015.state, e2015.apc_votes "Apc 2015",e2015.pdp_votes "Pdp 2015",
     AND   e2019.geopolitical_zone = 'South East' 
     ORDER BY 2 DESC, 3 DESC; 
     
+    
+--Viewing states WON by PDP in the South South over Apc in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
+                    e2019.pdp_votes "Pdp 2019", e2019.apc_votes "Apc 2019"
+    FROM election_2015 e2015
+    JOIN election_2019 e2019
+    ON e2015.state=e2019.state
+    WHERE e2015.geopolitical_zone = 'South East' 
+    AND   e2019.geopolitical_zone = 'South East'
+    GROUP BY 1, 2,3,4,5
+    HAVING e2015.pdp_votes > e2015.apc_votes 
+            AND e2019.pdp_votes > e2019.apc_votes
+    ORDER BY 2 DESC, 3 DESC;    
     
 --Thank you
