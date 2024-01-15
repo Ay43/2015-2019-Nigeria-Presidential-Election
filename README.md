@@ -20,6 +20,8 @@ In this project, would be covering the following;
 * Findings    [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#findings)
 * Conclusion    [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#conclusions)
 * Recommended Solutions   [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#recommended-solutions)
+* Preictions   [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#recommended-solutions)
+* Notes   [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#recommended-solutions)
 * Codes   [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#codes)
 * Tools   [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#tools)
 * Credits [here](https://github.com/Ay43/2015-2019-Nigeria-Presidential-Election/blob/main/README.md#credits)
@@ -579,9 +581,29 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 >*After carefully analysing the 2015 and 2019 presidential election, below are the recommended solutions for any party to successfully win the next presidential election*
 
-* 
+* Parties should tailor their campaign strategies based on historical voting patterns in states and geopolitical zones and also Focus on regions where there is potential for growth and identify key issues that resonate with the voters.
+* Leverage this analysis to inform campaign decisions and Utilize insights from the 2015 and 2019 elections to understand voters behavior and preferences.
+* Parties should explore forming alliances or coalitions in regions where they traditionally have weaker support and Develop targeted outreach programs to connect with voters and address region-specific concerns.
+* Craft campaigns around key issues that are relevant to each geopolitical zone. This tailored approach can resonate more effectively with diverse voter bases.
+* Invest in voter education programs to inform citizens about the electoral process, candidates, how to properly vote so their votes are not rendered null and the importance of their votes.
+* Given historical voting patterns, closely monitor regions that have shown tendencies for electoral violence and Collaborate with security agencies to ensure a peaceful electoral process.
 
 
+## Predictions for the 2023 Electon:
+
+>*After the analysis and the recomended solutions for any party to win the coming election, below are what i think would happen in the 2023 election;*
+
+* There may be shifts in geopolitical dynamics, with the potential for changes in the zones won by each party in which Parties would also closely analyze emerging trends and be prepared to adapt their strategies accordingly.
+* Parties would Identify states that showed variability in voting patterns between 2015 and 2019 and would focus on these states as they could play a decisive role in the 2023 election outcome.
+* The analysis shows the differences in voting patterns between urban and rural areas and Parties would tailor their messages to address the specific concerns of these demographics.
+* Parties would engage with diverse demographics to ensure a comprehensive understanding of voters needs and Consider the evolving demographic landscape and its potential impact on voting patterns.
+   
+
+## Notes:
+
+* As valuable historical data is, the political landscape is dynamic which also mean that New factors and events can influence voters behavior in unexpected ways. Parties should be prepared for any new factors that might influence voters behaviour and Establish a dedicated team for ongoing monitoring of political, social, economic changes and analyses to adapt to evolving trends.
+* Be prepared for unforeseen events that may alter the course of the election. Flexibility in campaign strategies is crucial. However, Parties should Develop robust crisis management plans that can be activated in response to unforeseen events.
+* For peaceful and succesful election, it is advised that parties should establish and enforce a clear code of conduct for campaign staff and leaders and adherence to ethical practices. 
 
 
 ## Codes
@@ -596,7 +618,7 @@ After carefully analysing the 2015 and 2019 presidential election data, Lets hav
 
 ## Credits
 
-* @Somtoe
+* @Somtoe on Kaggle for scraping the data and making it available to everyone
 * Kaggle 
 * Google
 * Github
