@@ -1,7 +1,36 @@
-/* First Step is to get the table information. Here,we would be using
+/* First Step is to create the table structure then get the table information. Here,we would be using
    two(2) different tables namely 2015 presidential election and
    2019 presidential election data */
 
+-- Create the table structure for the 2015 election 
+CREATE TABLE election_2015(
+   state TEXT,
+   geopolitical_zone TEXT,
+   registered_voters INTEGER,
+   accredited_voters INTEGER,
+   votes_cast INTEGER,
+   valid_votes INTEGER,
+   rejected_votes INTEGER,
+   pdp_votes INTEGER,
+   apc_votes INTEGER,
+   pdp_percentage_votes NUMERIC,
+   apc_percentage_votes NUMERIC 
+    );
+	
+-- Create the table structure for the 2015 election 
+CREATE TABLE election_2019(
+   state TEXT,
+   geopolitical_zone TEXT,
+   registered_voters INTEGER,
+   accredited_voters INTEGER,
+   votes_cast INTEGER,
+   valid_votes INTEGER,
+   rejected_votes INTEGER,
+   pdp_votes INTEGER,
+   apc_votes INTEGER,
+   pdp_percentage_votes NUMERIC,
+   apc_percentage_votes NUMERIC 
+    );
 
 --Viewing the table information on the 2015 election data
 SELECT column_name, data_type  
@@ -729,7 +758,7 @@ SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
     ORDER BY 2 DESC, 3 DESC; 
     
     
---Viewing states WON by PDP in the South South over Apc in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
+--Viewing states WON by PDP in the South East over Apc in the 2015 and 2019 Presidential Election since they have the MOST votes in that region
 SELECT e2015.state, e2015.pdp_votes "Pdp 2015", e2015.apc_votes "Apc 2015",
                     e2019.pdp_votes "Pdp 2019", e2019.apc_votes "Apc 2019"
     FROM election_2015 e2015
